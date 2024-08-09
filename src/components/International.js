@@ -27,7 +27,7 @@ function International() {
           Img="https://images.unsplash.com/photo-1531778272849-d1dd22444c06?q=80&w=1960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           Alt="Bali"
           header="Bali"
-          text=""
+          text="Bali, often referred to as the Island of the Gods,is a tropical paradise located in Indonesia. Renowned for its stunning beaches, vibrant culture, and lush landscapes, Bali offers a unique blend of natural beauty and rich traditions. Visitors can explore ancient temples, surf world-class waves, and immerse themselves in the island's lively arts scene. With its warm hospitality, diverse culinary experiences, and breathtaking sunsets, Bali is a dream destination for travelers seeking both adventure and relaxation."
           Url="/"
           visit="Visit Now!"
         />
