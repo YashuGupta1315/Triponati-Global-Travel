@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import India from "../components/India";
 function Trips() {
   return (
     <>
@@ -14,7 +15,7 @@ function Trips() {
         url="/"
         btnClass="show"
       />
-
+      <India />
       <Footer />
     </>
   );
