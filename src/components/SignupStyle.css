@@ -1,0 +1,60 @@
+.auth-container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+  background: #808080; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3fada8,
+    #808080
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3fada8,
+    #808080
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.auth-container label {
+  margin-bottom: 10px;
+}
+
+.auth-container input {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;
+}
+
+.auth-container button {
+  padding: 10px 20px;
+  background-color: #033b38;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.auth-container button:hover {
+  background-color: lightseagreen;
+  color: #000;
+}
+.toggle-button {
+  background-color: bisque;
+  border: none;
+  color: #032448;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.toggle-button:hover {
+  text-decoration: underline;
+}
