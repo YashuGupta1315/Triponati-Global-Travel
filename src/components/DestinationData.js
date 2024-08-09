@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./DestinationStyle.css";
-import India from "./India";
+import { Link } from "react-router-dom"; // Import Link
+
 class DestinationData extends Component {
   render() {
     return (
@@ -9,9 +10,10 @@ class DestinationData extends Component {
           <div className="des-text">
             <h2>{this.props.heading1}</h2>
             <p>{this.props.text1}</p>
-            <a href={India} className="btnExplore">
+            {/* Use Link component for navigation */}
+            <Link to={this.props.url} className="btnExplore">
               {this.props.Explore}
-            </a>
+            </Link>
           </div>
           <div className="image">
             <img
@@ -28,9 +30,10 @@ class DestinationData extends Component {
           <div className="sec-text">
             <h2>{this.props.heading2}</h2>
             <p>{this.props.text2}</p>
-            <a href="/" className="btnExplore">
+            {/* Use Link component for navigation */}
+            <Link to="/India" className="btnExplore">
               Explore..
-            </a>
+            </Link>
           </div>
           <div className="Secimage">
             <img
@@ -47,4 +50,5 @@ class DestinationData extends Component {
     );
   }
 }
+
 export default DestinationData;
