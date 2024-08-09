@@ -19,6 +19,7 @@ const Destination = () => {
               spiritual retreats. Its culinary diversity, friendly locals, and
               colorful traditions make India a compelling destination for
               travelers seeking both adventure and cultural enrichment."
+        Explore="Explore.."
         heading2="International Trips"
         text2="An international trip offers a unique opportunity to explore new
         cultures, cuisines, and landscapes. It allows travelers to step

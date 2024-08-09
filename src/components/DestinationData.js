@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./DestinationStyle.css";
+import India from "./India";
 class DestinationData extends Component {
   render() {
     return (
@@ -8,8 +9,8 @@ class DestinationData extends Component {
           <div className="des-text">
             <h2>{this.props.heading1}</h2>
             <p>{this.props.text1}</p>
-            <a href="/" className="btnExplore">
-              Explore..
+            <a href={India} className="btnExplore">
+              {this.props.Explore}
             </a>
           </div>
           <div className="image">
