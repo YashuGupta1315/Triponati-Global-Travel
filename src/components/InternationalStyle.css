@@ -41,6 +41,12 @@
   font-size: 1.3rem;
   padding: 0.9rem 0 0.2rem 0;
 }
+.I-card p {
+  display: flex;
+  justify-content: stretch;
+  align-items: start;
+  font-size: 0.7rem;
+}
 .I-card a {
   background-color: aqua;
   font-weight: 700;
