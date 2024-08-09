@@ -7,12 +7,11 @@ class DestinationData extends Component {
     return (
       <>
         <div className="first-des">
-          <div className="des-text">s
+          <div className="des-text">
             <h2>{this.props.heading1}</h2>
             <p>{this.props.text1}</p>
             {/* Use Link component for navigation */}
             <Link to={this.props.url} className="btnExplore">
-              {" "}
               {this.props.Explore}
             </Link>
           </div>

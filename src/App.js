@@ -5,7 +5,7 @@ import Trips from "./routes/Trips";
 import Adventure from "./routes/Adventure";
 import ContactUs from "./routes/ContactUs";
 import Signup from "./components/Signup";
-
+import India from "./components/India";
 export default function App() {
   return (
     <div className="App">
@@ -15,7 +15,7 @@ export default function App() {
         <Route path="/adventure" element={<Adventure />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/signup" element={<Signup />} />{" "}
-        {/* Corrected this line */}
+        <Route path="/India" element={<India />} /> {/* Corrected this line */}
       </Routes>
     </div>
   );
