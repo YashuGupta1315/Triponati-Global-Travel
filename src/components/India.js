@@ -224,16 +224,57 @@ function India() {
         />
 
         <IndiaData
-          Img=""
-          Alt="Uttar Pradesh"
-          header="Uttar Pradesh "
+          Img="https://images.unsplash.com/photo-1531761535209-180857e963b9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt="Andaman and Nicobar Islands"
+          header="Andaman and Nicobar Islands"
           Url="/"
           visit="Visit"
         />
         <IndiaData
-          Img=""
-          Alt="Uttarakhand"
-          header="Uttarakhand"
+          Img="https://images.unsplash.com/photo-1647490170061-1c1a74105e25?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt="Dadra and Nagar Haveli and Daman and Diu"
+          header="Dadra and Nagar Haveli and Daman and Diu"
+          Url="/"
+          visit="Visit"
+        />
+      </div>
+      <div className="indiacard">
+        <IndiaData
+          Img="https://images.unsplash.com/photo-1572431447238-425af66a273b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt="Lakshadweep "
+          header="Lakshadweep"
+          Url="/"
+          visit="Visit"
+        />
+
+        <IndiaData
+          Img="https://plus.unsplash.com/premium_photo-1661919589683-f11880119fb7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt="Delhi"
+          header="Delhi"
+          Url="/"
+          visit="Visit"
+        />
+        <IndiaData
+          Img="https://images.unsplash.com/photo-1566303052303-b2d2a9f16f0a?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt="Puducherry"
+          header="Puducherry"
+          Url="/"
+          visit="Visit"
+        />
+      </div>
+      <div className="indiacard">
+        <IndiaData
+          Img="https://plus.unsplash.com/premium_photo-1661962344178-19930ba15492?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt=" Ladakh"
+          header=" Ladakh"
+          Url="/"
+          visit="Visit"
+        />
+
+        <IndiaData
+          Img="https://images.unsplash.com/photo-1712925359348-462f7b342815?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt=" Jammu and Kashmir"
+          header=" Jammu and Kashmir"
           Url="/"
           visit="Visit"
         />
