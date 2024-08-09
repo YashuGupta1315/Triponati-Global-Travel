@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import India from "../components/India";
+import International from "../components/International";
 function Trips() {
   return (
     <>
@@ -16,6 +17,7 @@ function Trips() {
         btnClass="show"
       />
       <India />
+      <International />
       <Footer />
     </>
   );
