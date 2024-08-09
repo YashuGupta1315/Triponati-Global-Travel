@@ -14,11 +14,13 @@
   transform: translate(-50%);
   z-index: 9999;
 }
+
 .navbar-logo {
   color: #222;
   font-size: 1rem;
   cursor: pointer;
 }
+
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(6, auto);
@@ -26,48 +28,57 @@
   list-style: none;
   align-items: center;
 }
+
 .nav-links {
   text-decoration: none;
   color: #222;
-  font: size 1.2em;
+  font-size: 1.2em; /* Corrected */
   font-weight: 600;
   padding: 0.7rem 1rem;
   white-space: nowrap;
 }
+
 .nav-links i {
   padding-right: 10px;
 }
+
 .nav-links:hover {
   background-color: rgb(19, 133, 151);
   color: #fff;
   border-radius: 4px;
-  trasition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; /* Corrected typo */
 }
+
 .nav-links-mobile {
   display: none;
 }
+
 button {
   padding: 0.5em 1rem;
   white-space: nowrap;
   border-radius: 0.3rem;
   font-size: 1rem;
-  font: weight 600px;
+  font-weight: 600; /* Corrected */
   border: none;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
+
 button:hover {
   background-color: black;
   color: white;
-  font: weight 700px;
+  font-weight: 700; /* Corrected */
 }
+
 .menu-icons {
   display: none;
 }
+
 @media screen and (max-width: 850px) {
   .NavbarItems {
     z-index: 90;
   }
+
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -84,26 +95,32 @@ button:hover {
     margin: 0;
     z-index: -1;
   }
+
   .nav-menu.active {
     left: 0;
     opacity: 1;
     z-index: -1;
     transition: 0.3s ease-in-out;
   }
+
   .nav-links {
     display: block;
     width: 100%;
     font-size: 0.8rem;
     padding: 0.8rem 0;
   }
-  .nav-links: hover {
+
+  .nav-links:hover {
+    /* Corrected pseudo-class syntax */
     background-color: rgb(19, 133, 151);
     color: #fff;
     transition: none;
   }
+
   /* button {
     display: none;
   } */
+
   .nav-links-mobile {
     display: block;
     text-align: center;
@@ -114,16 +131,18 @@ button:hover {
     background: #01959a;
     text-decoration: none;
     color: #fff;
-    font: size 1.2rem;
+    font-size: 1.2rem; /* Corrected */
     font-weight: 700;
     letter-spacing: 2px;
   }
+
   .menu-icons {
     display: block;
     cursor: pointer;
   }
+
   .menu-icons i {
-    font: size 1.2em;
+    font-size: 1.2em; /* Corrected */
     color: #222;
   }
 }

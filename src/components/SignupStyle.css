@@ -35,6 +35,11 @@
   color: #000;
 }
 
+.auth-container input:focus {
+  outline: 2px solid #3fada8;
+  border-color: #3fada8;
+}
+
 .auth-container button {
   padding: 10px 20px;
   background-color: #033b38;
@@ -43,10 +48,16 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
 .auth-container button:hover {
   background-color: lightseagreen;
   color: #000;
 }
+
+.auth-container button:focus {
+  outline: 2px solid lightseagreen;
+}
+
 .toggle-button {
   background-color: bisque;
   border: none;
@@ -57,4 +68,8 @@
 
 .toggle-button:hover {
   text-decoration: underline;
+}
+
+.toggle-button:focus {
+  outline: 2px solid #032448;
 }
