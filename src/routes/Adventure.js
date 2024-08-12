@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AdventureIn from "../components/AdventureIn";
 function Adventure() {
   return (
     <>
@@ -14,6 +15,7 @@ function Adventure() {
         url="/"
         btnClass="show"
       />
+      <AdventureIn />
       <Footer />
     </>
   );
