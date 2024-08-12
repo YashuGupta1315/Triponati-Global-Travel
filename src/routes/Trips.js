@@ -13,7 +13,7 @@ function Trips() {
         title="Trip's"
         text="Let explore the World Together..."
         buttonText="Travel Plan"
-        url="/"
+        url="/TravelPlan"
         btnClass="show"
       />
       <India />

@@ -13,7 +13,7 @@ function Adventure() {
         title="Adventure"
         text="Let the Adventure begin!"
         buttonText="Travel Plan"
-        url="/"
+        url="/TravelPlan"
         btnClass="show"
       />
       <AdventureIn />
