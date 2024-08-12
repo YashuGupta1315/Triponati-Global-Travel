@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AdventureIn from "../components/AdventureIn";
+import Trek from "../components/Trek";
 function Adventure() {
   return (
     <>
@@ -16,6 +17,7 @@ function Adventure() {
         btnClass="show"
       />
       <AdventureIn />
+      <Trek />
       <Footer />
     </>
   );

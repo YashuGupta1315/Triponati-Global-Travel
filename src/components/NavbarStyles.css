@@ -54,21 +54,22 @@
 }
 
 button {
-  padding: 0.5em 1rem;
+  visibility: hidden;
+  /* padding: 0.5em 1rem;
   white-space: nowrap;
   border-radius: 0.3rem;
   font-size: 1rem;
-  font-weight: 600; /* Corrected */
-  border: none;
+  font-weight: 600; Corrected */
+  /* border: none;
   cursor: pointer;
-  transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out; */
 }
 
-button:hover {
+/* button:hover {
   background-color: black;
   color: white;
-  font-weight: 700; /* Corrected */
-}
+  font-weight: 700; /* Corrected 
+} */
 
 .menu-icons {
   display: none;
@@ -84,7 +85,7 @@ button:hover {
     flex-direction: column;
     justify-content: flex-start;
     background: white;
-    width: 90%;
+    width: 100%;
     height: auto;
     position: absolute;
     top: 0;
@@ -106,7 +107,7 @@ button:hover {
   .nav-links {
     display: block;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     padding: 0.8rem 0;
   }
 
@@ -127,11 +128,11 @@ button:hover {
     padding: 1.5rem;
     margin: auto;
     border-radius: 4px;
-    width: 80%;
+    width: 100%;
     background: #01959a;
     text-decoration: none;
     color: #fff;
-    font-size: 1.2rem; /* Corrected */
+    font-size: 1rem; /* Corrected */
     font-weight: 700;
     letter-spacing: 2px;
   }

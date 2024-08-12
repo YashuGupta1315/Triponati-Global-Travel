@@ -54,12 +54,12 @@ img {
 
 @media screen and (max-width: 555px) {
   .hero-text h1 {
-    font-size: 2rem;
+    font-size: 2.6rem;
     padding: 10px 20px;
   }
 
   .hero-text p {
-    font-size: 0.5rem; /* Corrected */
+    font-size: 1.5rem; /* Corrected */
     padding: 0 0 2rem 0;
   }
 

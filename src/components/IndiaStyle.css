@@ -1,5 +1,5 @@
 .india {
-  margin: 4rem 6rem;
+  margin: 8rem 6rem;
   color: #2a2a2a;
 }
 .india h1 {
@@ -61,7 +61,7 @@
 }
 @media screen and (max-width: 850px) {
   .india {
-    margin: 4rem 2rem;
+    margin: 8rem 2rem;
   }
   .indiacard {
     flex-direction: column;
