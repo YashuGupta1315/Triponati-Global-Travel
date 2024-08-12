@@ -31,7 +31,7 @@ class DestinationData extends Component {
             <h2>{this.props.heading2}</h2>
             <p>{this.props.text2}</p>
             {/* Use Link component for navigation */}
-            <Link to="/India" className="btnExplore">
+            <Link to="/International" className="btnExplore">
               Explore..
             </Link>
           </div>
