@@ -43,6 +43,40 @@ function AdventureIn() {
           visit="Book Now"
         />
       </div>
+      <div className="advcard">
+        <AdvData
+          Img="https://images.unsplash.com/photo-1520094203104-4f498c82e366?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt="Helicopter Tour"
+          header="Helicopter Tour"
+          text="Pokhara heli sightseing tour is an amazing helicopter ride over the Phewa Lake and the Pokhara city. The helicopter tour gives an opportunity to explore the green and clean city Pokhara from the aerial view. "
+          Url="/"
+          visit="Book Now"
+        />
+        <AdvData
+          Img="https://images.unsplash.com/photo-1590927586009-0082868049c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt="Bungee Jumping"
+          header="Bungee Jumping"
+          text="If you are an adventure hunter and want to go for an activity that actually can pump up your heart's race rate, feel the free fall, and flex your strength and mental ability to take risks, bungee jumping in Pokhara is the best thing you can do."
+          visit="Book Now"
+        />
+      </div>
+      <div className="advcard">
+        <AdvData
+          Img="https://media2.thrillophilia.com/images/photos/000/134/639/original/1539861676_bali-sobek-ayung-rafting_62bcccbdbd7732466a2bf365a1a7e5e7379e9686.jpg?width=975&height=600"
+          Alt="River Rafting"
+          header="River Rafting"
+          text="Enjoy river rafting in Pokhara on the Upper Seti River in the adventure capital of the world.This half-day rafting activity is an exhilarating experience that takes about 1.5 hours for completion.You get a view of the snow-capped Annapurna mountain range while you paddle on the clean water that comes from the Himalayas."
+          Url="/"
+          visit="Book Now"
+        />
+        <AdvData
+          Img="https://plus.unsplash.com/premium_photo-1661290309226-2e5cd5a3915f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          Alt="Jungle Safari"
+          header="Jungle Safari"
+          text="Explore Nepal's wild side with our Chitwan Jungle Safari from Kathmandu/Pokhara. Encounter exotic wildlife, cruise along the Rapti River & immerse in local culture for an unforgettable adventure"
+          visit="Book Now"
+        />
+      </div>
     </div>
   );
 }
