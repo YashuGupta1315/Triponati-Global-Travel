@@ -1,7 +1,7 @@
 import IndiaData from "./IndiaData";
 import "./IndiaStyle.css";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+
 function India() {
   return (
     <>
@@ -284,7 +284,6 @@ function India() {
           />
         </div>
       </div>
-      <Footer />
     </>
   );
 }

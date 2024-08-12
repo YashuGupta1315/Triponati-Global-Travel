@@ -54,22 +54,20 @@
 }
 
 button {
-  visibility: hidden;
-  /* padding: 0.5em 1rem;
+  padding: 0.5em 1rem;
   white-space: nowrap;
   border-radius: 0.3rem;
   font-size: 1rem;
-  font-weight: 600; Corrected */
-  /* border: none;
+  font-weight: 600; /* Corrected */
+  border: none;
   cursor: pointer;
-  transition: 0.2s ease-in-out; */
+  transition: 0.2s ease-in-out;
 }
-
-/* button:hover {
+button:hover {
   background-color: black;
   color: white;
-  font-weight: 700; /* Corrected 
-} */
+  font-weight: 700; /* Corrected */
+}
 
 .menu-icons {
   display: none;

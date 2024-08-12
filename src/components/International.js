@@ -1,7 +1,7 @@
 import "./InternationalStyle.css";
 import InternationData from "./InternationData";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+
 function International() {
   return (
     <>
@@ -88,7 +88,6 @@ function International() {
           />
         </div>
       </div>
-      <Footer />
     </>
   );
 }
