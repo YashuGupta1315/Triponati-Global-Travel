@@ -11,9 +11,6 @@ function Hero(props) {
           <Link to={props.url} className={props.btnClass} target="_top">
             {props.buttonText}
           </Link>
-          {/* <Link to="/International" className="btnExplore">
-              Explore..
-            </Link> */}
         </div>
       </div>
     </>

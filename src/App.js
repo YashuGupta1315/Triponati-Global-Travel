@@ -8,6 +8,7 @@ import Signup from "./components/Signup";
 import India from "./components/India";
 import International from "./components/International";
 import TravelPlan from "./components/TravelPlan";
+import Andra from "./components/Andra";
 export default function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/India" element={<India />} /> {/* Corrected this line */}
         <Route path="/International" element={<International />} />
         <Route path="/TravelPlan" element={<TravelPlan />} />
+        <Route path="/Andra" element={<Andra />} />
       </Routes>
     </div>
   );

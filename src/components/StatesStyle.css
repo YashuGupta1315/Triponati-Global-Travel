@@ -1,0 +1,8 @@
+.title {
+  background-color: rgba(0, 0, 0, 0.274);
+  padding: 3rem;
+}
+.title p {
+  font-size: 1rem;
+  font-weight: 700;
+}
