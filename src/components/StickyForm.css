@@ -1,0 +1,131 @@
+.sticky-form-container {
+  position: sticky;
+  left: 20%;
+  top: 10px;
+  width: 100%; /* Adjust width to be responsive */
+  max-width: 800px; /* Limit max width */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.707);
+}
+
+.sticky-form {
+  margin-bottom: 20px;
+}
+
+.sticky-form h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.sticky-form input,
+.sticky-form select,
+.sticky-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.phone-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: stretch; /* Ensure items take full width */
+}
+
+.phone-container span {
+  margin-right: 0;
+  margin-bottom: 10px; /* Space between phone code and input */
+}
+
+.sticky-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-info {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.price-info h2 {
+  color: #ff5722;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.price-info s {
+  color: #757575;
+}
+
+.price-info .discount {
+  color: green;
+  font-weight: bold;
+}
+
+.price-info .sale-type {
+  background-color: #ff4081;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.phone-group {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: stretch; /* Ensure items take full width */
+  margin-bottom: 10px;
+}
+
+.phone-code,
+.phone-input {
+  width: 100%; /* Full width on smaller screens */
+  margin-bottom: 10px; /* Space between inputs */
+}
+
+@media screen and (max-width: 850px) {
+  .sticky-form-container {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .sticky-form h3 {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .sticky-form input,
+  .sticky-form select,
+  .sticky-form textarea {
+    padding: 8px; /* Adjust padding */
+  }
+
+  .sticky-form button {
+    padding: 8px; /* Adjust button padding */
+  }
+
+  .price-info h2 {
+    font-size: 20px; /* Adjust font size */
+  }
+
+  .phone-container {
+    flex-direction: column; /* Stack vertically on smaller screens */
+  }
+
+  .phone-container span {
+    margin-bottom: 10px; /* Space between elements */
+  }
+
+  .phone-group {
+    flex-direction: column; /* Stack items vertically */
+    margin-bottom: 10px;
+  }
+}

@@ -6,7 +6,7 @@ function IndiaData(props) {
         <img src={props.Img} alt={props.Alt} />
       </div>
       <h4>{props.header}</h4>
-      <a href={props.Url} target="_blank">
+      <a href={props.Url} target="_self">
         {props.visit}
       </a>
     </div>

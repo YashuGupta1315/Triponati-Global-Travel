@@ -63,7 +63,6 @@ button {
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
-
 button:hover {
   background-color: black;
   color: white;
@@ -84,7 +83,7 @@ button:hover {
     flex-direction: column;
     justify-content: flex-start;
     background: white;
-    width: 90%;
+    width: 100%;
     height: auto;
     position: absolute;
     top: 0;
@@ -106,7 +105,7 @@ button:hover {
   .nav-links {
     display: block;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     padding: 0.8rem 0;
   }
 
@@ -127,11 +126,11 @@ button:hover {
     padding: 1.5rem;
     margin: auto;
     border-radius: 4px;
-    width: 80%;
+    width: 100%;
     background: #01959a;
     text-decoration: none;
     color: #fff;
-    font-size: 1.2rem; /* Corrected */
+    font-size: 1rem; /* Corrected */
     font-weight: 700;
     letter-spacing: 2px;
   }

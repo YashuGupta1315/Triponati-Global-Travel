@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 3rem; */
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(127, 255, 212, 0.327);
+}
+.overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3rem;
+}
+.sticky-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}

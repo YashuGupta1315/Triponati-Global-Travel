@@ -23,9 +23,9 @@ export const MenuItems = [
     cName: "nav-links",
     icon: "fa-regular fa-address-book",
   },
-  {
-    title: "Sign Up",
-    url: "/signup", // Corrected this line
-    cName: "nav-links-mobile",
-  },
+  // {
+  //   title: "Sign Up",
+  //   url: "/signup", // Corrected this line
+  //   cName: "nav-links-mobile",
+  // },
 ];

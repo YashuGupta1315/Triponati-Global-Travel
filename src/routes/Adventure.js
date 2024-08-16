@@ -1,6 +1,8 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AdventureIn from "../components/AdventureIn";
+import Trek from "../components/Trek";
 function Adventure() {
   return (
     <>
@@ -11,9 +13,11 @@ function Adventure() {
         title="Adventure"
         text="Let the Adventure begin!"
         buttonText="Travel Plan"
-        url="/"
+        url="/TravelPlan"
         btnClass="show"
       />
+      <AdventureIn />
+      <Trek />
       <Footer />
     </>
   );

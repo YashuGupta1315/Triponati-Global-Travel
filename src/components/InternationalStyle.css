@@ -1,5 +1,5 @@
 .Inter {
-  margin: 4rem 6rem;
+  margin: 8rem 6rem;
   color: #2a2a2a;
 }
 .Inter h1 {
@@ -68,7 +68,10 @@
 }
 @media screen and (max-width: 850px) {
   .Inter {
-    margin: 4rem 2rem;
+    margin: 8rem 2rem;
+  }
+  .Inter h1 {
+    font-size: 1.7rem;
   }
   .Intercard {
     flex-direction: column;

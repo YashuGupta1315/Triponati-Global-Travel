@@ -1,0 +1,125 @@
+/* General form container styling */
+.form-overlay {
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+/* Header styling */
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.form-header .highlight {
+  color: #ffa500; /* Orange color */
+}
+
+.form-header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Form input fields */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.phone-group {
+  display: flex;
+}
+
+.phone-code {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+.phone-input {
+  width: 75%;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Submit button */
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff4500; /* Orange color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #ff5733;
+}
+@media screen and (max-width: 850px) {
+  .form-container {
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  .form-header h2 {
+    font-size: 20px;
+  }
+
+  .form-header p {
+    font-size: 13px;
+  }
+
+  .phone-group {
+    flex-direction: column;
+  }
+
+  .phone-code,
+  .phone-input {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .form-input,
+  .form-button {
+    font-size: 14px;
+  }
+
+  .form-button {
+    padding: 12px;
+  }
+}

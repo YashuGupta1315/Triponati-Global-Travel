@@ -14,7 +14,7 @@ function Home() {
         title="Triponati Global Travel"
         text="We Fulfill Your Adventure Desire.."
         buttonText="Travel Plan"
-        url="/"
+        url="/TravelPlan"
         btnClass="show"
       />
       <Destination />

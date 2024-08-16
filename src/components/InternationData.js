@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./InternationalStyle.css";
 function InternationData(props) {
   return (
@@ -7,9 +8,9 @@ function InternationData(props) {
       </div>
       <h4>{props.header}</h4>
       <p>{props.text}</p>
-      <a href={props.Url} target="_blank">
+      <Link href={props.Url} target="_blank">
         {props.visit}
-      </a>
+      </Link>
     </div>
   );
 }
