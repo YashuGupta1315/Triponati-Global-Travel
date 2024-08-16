@@ -89,3 +89,37 @@
 .form-button:hover {
   background-color: #ff5733;
 }
+@media screen and (max-width: 850px) {
+  .form-container {
+    padding: 15px;
+    max-width: 95%;
+  }
+
+  .form-header h2 {
+    font-size: 20px;
+  }
+
+  .form-header p {
+    font-size: 13px;
+  }
+
+  .phone-group {
+    flex-direction: column;
+  }
+
+  .phone-code,
+  .phone-input {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .form-input,
+  .form-button {
+    font-size: 14px;
+  }
+
+  .form-button {
+    padding: 12px;
+  }
+}

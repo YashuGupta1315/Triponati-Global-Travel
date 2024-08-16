@@ -9,6 +9,7 @@ import India from "./components/India";
 import International from "./components/International";
 import TravelPlan from "./components/TravelPlan";
 import Andra from "./components/Andra";
+import Arunachal from "./components/Arunachal";
 export default function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/International" element={<International />} />
         <Route path="/TravelPlan" element={<TravelPlan />} />
         <Route path="/Andra" element={<Andra />} />
+        <Route path="/Arunachal" element={<Arunachal />} />
       </Routes>
     </div>
   );

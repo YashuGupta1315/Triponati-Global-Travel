@@ -21,7 +21,7 @@ function India() {
             Img="https://images.unsplash.com/photo-1672399444836-3f2d667ded8e?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt=" Arunachal Pradesh "
             header=" Arunachal Pradesh    "
-            Url="/"
+            Url="/Arunachal"
             visit="Visit"
           />
           <IndiaData

@@ -45,3 +45,14 @@
   color: white;
   cursor: pointer;
 }
+@media screen and (max-width: 850px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  }
+
+  .close {
+    font-size: 30px;
+    right: 20px;
+    color: black;
+  }
+}

@@ -1,6 +1,9 @@
 import React from "react";
 import ImageGallery from "./ImageGallery";
 import States from "./States";
+import StickyForm from "./StickyForm";
+import Footer from "./Footer";
+
 const images = [
   {
     src: "https://etimg.etb2bimg.com/photo/89314482.cms",
@@ -36,14 +39,35 @@ const images = [
   },
 ];
 const Andra = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Handle form submission logic here
+  };
+
   return (
-    <div className="App">
+    <>
       <ImageGallery images={images} />
-      <States
-        title="Andhra Pradesh"
-        text="Andhra Pradesh, located in southeastern India, is known for its rich cultural heritage, historical landmarks, and natural beauty. The state boasts a diverse landscape ranging from scenic beaches along the Bay of Bengal to lush hills and valleys in the Eastern Ghats. Andhra Pradesh is renowned for its classical dance form, Kuchipudi, and its vibrant festivals. The city of Visakhapatnam, with its beautiful coastline, and the temple town of Tirupati, home to the famous Sri Venkateswara Temple, are among the state's major attractions"
-      />
-    </div>
+      <div className="App">
+        <States
+          title="Andhra Pradesh"
+          text="Andhra Pradesh, located in southeastern India, is known for its rich cultural heritage, historical landmarks, and natural beauty. The state boasts a diverse landscape ranging from scenic beaches along the Bay of Bengal to lush hills and valleys in the Eastern Ghats. Andhra Pradesh is renowned for its classical dance form, Kuchipudi, and its vibrant festivals. The city of Visakhapatnam, with its beautiful coastline, and the temple town of Tirupati, home to the famous Sri Venkateswara Temple, are among the state's major attractions"
+          icon="fa-regular fa-calendar-days"
+          para="10 Days"
+          icon1="fa-regular fa-clock"
+          para1="240 hours"
+        />
+        <StickyForm
+          title="Hyderabad | Visakhapatnam - Puducherry - Tirupati - Vijayawada - Amaravati: Get 26% off!"
+          originalPrice="INR 75,000"
+          discountedPrice="INR 55,500"
+          discountPercentage={26}
+          saleType="FREEDOM SALE"
+          onSubmit={handleSubmit}
+        />
+      </div>
+
+      <Footer />
+    </>
   );
 };
 export default Andra;
