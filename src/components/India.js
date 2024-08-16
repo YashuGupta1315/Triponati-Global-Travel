@@ -28,7 +28,7 @@ function India() {
             Img="https://images.unsplash.com/photo-1578981320111-c7e9426cd6e8?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt=" Assam "
             header=" Assam  "
-            Url="/"
+            Url="/Assam"
             visit="Visit"
           />
         </div>
@@ -37,14 +37,14 @@ function India() {
             Img="https://images.unsplash.com/photo-1635951583067-afc10978205e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt="Bihar"
             header="Bihar"
-            Url="/"
+            Url="/Bihar"
             visit="Visit"
           />
           <IndiaData
             Img="https://images.unsplash.com/photo-1647614381422-4e84d66ee1c4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt=" Chhattisgarh"
             header="Chhattisgarh  "
-            Url="/"
+            Url="/Chhattisgarh"
             visit="Visit"
           />
           <IndiaData
