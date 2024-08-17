@@ -48,7 +48,7 @@ const Gujarat = () => {
       <div className="App">
         <States
           title="Gujarat"
-          text=""
+          text="Gujarat, a vibrant state in western India, is a treasure trove of cultural, historical, and natural wonders. Known for its rich heritage, Gujarat is home to the ancient city of Lothal, one of the oldest known sites of the Indus Valley Civilization. The state boasts stunning architectural marvels like the Sun Temple at Modhera and the Rani ki Vav stepwell. Gujarat’s diverse landscapes range from the white salt flats of the Rann of Kutch to the lush Gir Forest, the only natural habitat of the Asiatic lion. The state's vibrant festivals, such as Navratri, attract visitors with their colorful garba dances and lively celebrations. Additionally, Gujarat’s cuisine, known for its flavorsome vegetarian dishes, adds to the state's allure, making it a must-visit destination for travelers."
           icon="fa-regular fa-calendar-days"
           para="15 Days"
           icon1="fa-regular fa-clock"
