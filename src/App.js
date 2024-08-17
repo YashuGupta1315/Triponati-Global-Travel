@@ -14,6 +14,7 @@ import Assam from "./components/Assam";
 import Bihar from "./components/Bihar";
 import Chhattisgarh from "./components/Chhattisgarh";
 import Goa from "./components/Goa";
+import Gujarat from "./components/Gujarat";
 export default function App() {
   return (
     <div className="App">
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/Bihar" element={<Bihar />} />
         <Route path="/Chhattisgarh" element={<Chhattisgarh />} />
         <Route path="/Goa" element={<Goa />} />
+        <Route path="/Gujarat" element={<Gujarat />} />
       </Routes>
     </div>
   );

@@ -39,12 +39,12 @@
 
 .btnExplore {
   text-decoration: none;
-  background: rgb(19, 133, 151); /* Moved background color */
+  background-color:darkblue; /* Moved background color */
   padding: 0.2rem 0.8rem;
   border-radius: 6px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #222;
+  color: white;
   margin-top: 5.5rem;
 }
 
