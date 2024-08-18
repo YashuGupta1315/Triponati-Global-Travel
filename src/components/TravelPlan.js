@@ -47,6 +47,15 @@ const TravelPlan = () => {
       }
     );
     if(res){
+      handleChange ({
+        fullName: "",
+        email: "",
+        phone: "",
+        countryCode: "+91",
+        travelDate: "",
+        travellerCount: "",
+        message: "",
+      })
       alert("Form Submitted!!");
     }
     else{
