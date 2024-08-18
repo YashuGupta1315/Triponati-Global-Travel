@@ -47,7 +47,7 @@ const TravelPlan = () => {
       }
     );
     if(res){
-      handleChange ({
+      setFormData ({
         fullName: "",
         email: "",
         phone: "",
