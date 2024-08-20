@@ -15,6 +15,7 @@ import Bihar from "./components/Bihar";
 import Chhattisgarh from "./components/Chhattisgarh";
 import Goa from "./components/Goa";
 import Gujarat from "./components/Gujarat";
+import Trek from "./components/Trek";
 export default function App() {
   return (
     <div className="App">
@@ -22,6 +23,9 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Trips" element={<Trips />} />
         <Route path="/Adventure" element={<Adventure />} />
+        <Route path="/trips" element={<Trips />} />{" "}
+        <Route path="/trek" element={<Trek />} />{" "}
+        <Route path="/adventure" element={<Adventure />} />{" "}
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/signup" element={<Signup />} />{" "}
         <Route path="/India" element={<India />} />

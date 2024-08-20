@@ -19,9 +19,48 @@ const TravelPlan = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
     console.log(formData);
+    const { fullName,
+      email,
+      phone,
+      countryCode,
+      travelDate,
+      travellerCount,
+      message}=formData;
+    const res =fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json",
+      {
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json"
+        },
+        body:JSON.stringify({
+          fullName,
+      email,
+      phone,
+      countryCode,
+      travelDate,
+      travellerCount,
+      message,
+        })
+      }
+    );
+    if(res){
+      setFormData ({
+        fullName: "",
+        email: "",
+        phone: "",
+        countryCode: "+91",
+        travelDate: "",
+        travellerCount: "",
+        message: "",
+      })
+      alert("Form Submitted!!");
+    }
+    else{
+      alert("Please fill the details !");
+    }
   };
 
   return (
@@ -36,7 +75,7 @@ const TravelPlan = () => {
             your trip
           </p>
         </div>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} method="POST">
           <div className="form-group">
             <input
               type="text"
@@ -76,7 +115,7 @@ const TravelPlan = () => {
               <option value="+376">+376</option>
               <option value="+93">+93</option>
               <option value="+355">+355</option>
-              
+
             </select>
             <input
               type="tel"
@@ -120,7 +159,7 @@ const TravelPlan = () => {
               rows="3"
             ></textarea>
           </div>
-          <button type="submit" className="form-button">
+          <button type="submit" className="form-button" >
             Connect with an Expert
           </button>
         </form>
