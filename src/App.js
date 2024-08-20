@@ -21,6 +21,8 @@ export default function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Trips" element={<Trips />} />
+        <Route path="/Adventure" element={<Adventure />} />
         <Route path="/trips" element={<Trips />} />{" "}
         <Route path="/trek" element={<Trek />} />{" "}
         <Route path="/adventure" element={<Adventure />} />{" "}
