@@ -18,6 +18,7 @@ import Gujarat from "./components/Gujarat";
 import Trek from "./components/Trek";
 import Haryana from "./components/Haryana";
 import Himachal from "./components/Himachal";
+import Jharkhand from "./components/Jharkhand";
 export default function App() {
   return (
     <div className="App">
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/Gujarat" element={<Gujarat />} />
         <Route path="/Haryana" element={<Haryana />} />
         <Route path="/Himachal" element={<Himachal />} />
+        <Route path="/Jharkhand" element={<Jharkhand />} />
       </Routes>
     </div>
   );
