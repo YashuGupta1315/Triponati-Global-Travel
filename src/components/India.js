@@ -74,7 +74,7 @@ function India() {
             Img="https://images.unsplash.com/photo-1675515642093-4fd5b6cca657?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt=" Himachal Pradesh "
             header="Himachal Pradesh  "
-            Url="/"
+            Url="/Himachal"
             visit="Visit"
           />
         </div>
