@@ -7,13 +7,13 @@ export const MenuItems = [
   },
   {
     title: "Trip",
-    url: "/trip",
+    url: "/Trips",
     cName: "nav-links",
     icon: "fa-solid fa-plane-departure",
   },
   {
     title: "Adventure",
-    url: "/adventure",
+    url: "/Adventure",
     cName: "nav-links",
     icon: "fa-solid fa-person-hiking",
   },

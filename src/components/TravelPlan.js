@@ -19,49 +19,49 @@ const TravelPlan = () => {
     });
   };
 
-  const handleSubmit = async(e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(formData);
-    const { fullName,
-      email,
-      phone,
-      countryCode,
-      travelDate,
-      travellerCount,
-      message}=formData;
-    const res =fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json",
-      {
-        method:"POST",
-        headers:{
-          "Content-Type":"application/json"
+    
+    const { fullName, email, phone, countryCode, travelDate, travellerCount, message } = formData;
+    
+    try {
+      const res = await fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-        body:JSON.stringify({
+        body: JSON.stringify({
           fullName,
-      email,
-      phone,
-      countryCode,
-      travelDate,
-      travellerCount,
-      message,
-        })
+          email,
+          phone,
+          countryCode,
+          travelDate,
+          travellerCount,
+          message,
+        }),
+      });
+  
+      if (res.ok) {
+        setFormData({
+          fullName: "",
+          email: "",
+          phone: "",
+          countryCode: "+91",
+          travelDate: "",
+          travellerCount: "",
+          message: "",
+        });
+        alert("Form Submitted!!");
+      } else {
+        alert("Failed to submit form!");
       }
-    );
-    if(res){
-      setFormData ({
-        fullName: "",
-        email: "",
-        phone: "",
-        countryCode: "+91",
-        travelDate: "",
-        travellerCount: "",
-        message: "",
-      })
-      alert("Form Submitted!!");
-    }
-    else{
-      alert("Please fill the details !");
+    } catch (error) {
+      console.error("Error:", error);
+      alert("An error occurred while submitting the form.");
     }
   };
+  
 
   return (
     <div className="form-overlay">
