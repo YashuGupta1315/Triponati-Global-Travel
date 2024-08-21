@@ -4,6 +4,7 @@ function TrekDetail(props){
         <>
             <div className="Overview">
                 <h1>{props.heading}</h1>
+                <h4>{props.over}</h4>
                 <p>{props.para}</p>
             </div>
             <div className="main">

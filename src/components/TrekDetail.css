@@ -1,11 +1,8 @@
 .Overview{
     padding: 4rem 3rem;
-    background-color: midnightblue;
+    background-color:  rgb(8, 8, 115);
     color: white;
-    display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+   
 }
 .Overview h1{
     font-size: 3rem;
@@ -16,9 +13,9 @@
     font-weight: 500;
 }
 .main{
-    background-color: #ded9d9;
+    background-color: #91b0fe;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: start;
 	position: relative;
     
@@ -34,17 +31,13 @@
     width: 550px;
 }
 .box {
-    padding: 20px;
+    padding: 50px;
     background-color: #ffffff;
     border-radius: 10px;
     text-align: center;
 }
 .highlights{
-    display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
     padding: 4rem 3rem;
-    background-color: midnightblue;
+    background-color: rgb(8, 8, 115);
     color: white;
 }

@@ -4,10 +4,7 @@ import TrekDetail from "./TrekDetail";
 import Accordion from "./Accordion";
 import StickyForm from "./StickyForm";
 const images = [
-    {
-      src: "https://hsj.com.np/uploads/0000/386/2020/05/03/annapurna-camp.jpg",
-      alt: "annapurna-camp",
-    },
+ 
     {
         src: "https://hsj.com.np/uploads/0000/386/2020/05/03/annapurna-base-camp-trek.jpg",
         alt: "annapurna-camp",
@@ -33,11 +30,10 @@ const Annapurana=()=>{
     return(
         <>
             <ImageGallery images={images} />
-            <div className="main_content">
-                <h1>Annapurna Base Camp</h1>
-            </div>
+         
             <TrekDetail 
-            heading="Overview"
+            heading="Annapurna Base Camp"
+            over="Overview"
             para="Don’t let the lack of time become the excuse to not let you have extraordinary journey to the Annapurna Base Camp. This 11 days Annapurna Base Camp Trek is created for you so you will never have to worry about missing the enthralling adventure to the one of the best trekking destination there is. We have your back, you just make up your mind. The Annapurna base camp trek is a diversity trek that leads through rural Nepali ethnic villages,lush forests and shrubs, to one of Nepalese's most popular trekking destinations. And a nice view ofthe Shrine of the mountain. It's not very hard and also fast. It's excellent for people who have nomore time but want to admire the beauty of Nepal's mountains and hills."
             Rclass="fa-solid fa-mountain-sun"
             region="Region"
