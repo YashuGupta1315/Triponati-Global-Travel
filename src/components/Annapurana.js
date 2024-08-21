@@ -3,7 +3,6 @@ import ImageGallery from "./ImageGallery";
 import TrekDetail from "./TrekDetail";
 import Accordion from "./Accordion";
 import StickyForm from "./StickyForm";
-
 const images = [
     {
       src: "",

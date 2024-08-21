@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import "./AccordionStyle.css";
-
 const Accordion = ({ title, content, Max, MaxAltitude, MaxAlt, Over, OverNight, hotel, meal, Meal, MealDetail, Time, TimeDetail, dura }) => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <div className="accordion-item">
       <div className="accordion-title" onClick={toggleAccordion}>
@@ -46,5 +43,4 @@ const Accordion = ({ title, content, Max, MaxAltitude, MaxAlt, Over, OverNight, 
     </div>
   );
 };
-
 export default Accordion;
