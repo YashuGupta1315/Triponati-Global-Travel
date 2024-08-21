@@ -5,9 +5,26 @@ import Accordion from "./Accordion";
 import StickyForm from "./StickyForm";
 const images = [
     {
-      src: "",
-      alt: "",
+      src: "https://hsj.com.np/uploads/0000/386/2020/05/03/annapurna-camp.jpg",
+      alt: "annapurna-camp",
     },
+    {
+        src: "https://hsj.com.np/uploads/0000/386/2020/05/03/annapurna-base-camp-trek.jpg",
+        alt: "annapurna-camp",
+    },
+    {
+        src: "https://hsj.com.np/uploads/0000/386/2020/05/03/annapurna-base-trek.jpg",
+        alt: "annapurna-camp",
+    },
+    {
+        src: "https://hsj.com.np/uploads/0000/1/2023/06/23/dobhan-dovan-nepal-abc-trek-annapurna-base-camp-trekking-route-village-2.jpg",
+        alt: "annapurna-camp",
+    },
+    {
+        src: "https://hsj.com.np/uploads/0000/1/2023/07/18/annapurna-base-camp.jpg",
+        alt: "annapurna-camp",
+    },
+
 ];
 const Annapurana=()=>{
     const handleSubmit = (event) => {
