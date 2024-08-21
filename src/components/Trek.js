@@ -27,7 +27,10 @@ function Trek() {
           url="/"
           See="More.."
         />
-        <TrekData
+       
+      </div>
+      <div className="trekcard">
+      <TrekData
           image="https://hsj.com.np/uploads/0000/386/2020/05/04/langtang-trek.jpeg"
           alt="Langtang Valley "
           heading="Langtang Valley Trek"
@@ -41,6 +44,14 @@ function Trek() {
           url="/"
           See="More.."
         />
+         <TrekData
+          image="https://hsj.com.np/uploads/0000/1/2020/07/17/annapurna-base-trek-400.jpg"
+          alt="Annapurna Base Camp"
+          heading="Annapurna Base Camp"
+          url="/Annapurana"
+          See="More.."
+        />
+
       </div>
     </div>
   );
