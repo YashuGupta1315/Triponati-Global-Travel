@@ -20,6 +20,7 @@ import Haryana from "./components/Haryana";
 import Himachal from "./components/Himachal";
 import Jharkhand from "./components/Jharkhand";
 import Karnataka  from "./components/Karnataka";
+import Kerala from "./components/Kerala";
 export default function App() {
   return (
     <div className="App">
@@ -44,6 +45,7 @@ export default function App() {
         <Route path="/Himachal" element={<Himachal />} />
         <Route path="/Jharkhand" element={<Jharkhand />} />
         <Route path="/Karnataka" element={<Karnataka />}/>
+        <Route path="/Kerala" element={<Kerala />}/>
       </Routes>
     </div>
   );
