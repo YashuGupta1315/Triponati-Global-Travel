@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./AccordionStyle.css";
-const Accordion = ({ title, content,props }) => {
+
+const Accordion = ({ title, content, Max, MaxAltitude, MaxAlt, Over, OverNight, hotel, meal, Meal, MealDetail, Time, TimeDetail, dura }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
@@ -18,26 +19,26 @@ const Accordion = ({ title, content,props }) => {
           <p>{content}</p>
           <div className="main">
             <div className="container">
-            <div className="box">
-                    <i className={props.Max}></i>
-                    <p>{props.MaxAltitude}</p>
-                    <p>{props.MaxAlt}</p>
-            </div>
-            <div className="box">
-                    <i className={props.Over}></i>
-                    <p>{props.OverNight}</p>
-                    <p>{props.hotel}</p>
-            </div>
-            <div className="box">
-                    <i className={props.meal}></i>
-                    <p>{props.Meal}</p>
-                    <p>{props.MealDetail}</p>
-            </div>
-            <div className="box">
-                    <i className={props.Time}></i>
-                    <p>{props.TimeDetail}</p>
-                    <p>{props.dura}</p>
-            </div>
+              <div className="box">
+                <i className={Max}></i>
+                <p>{MaxAltitude}</p>
+                <p>{MaxAlt}</p>
+              </div>
+              <div className="box">
+                <i className={Over}></i>
+                <p>{OverNight}</p>
+                <p>{hotel}</p>
+              </div>
+              <div className="box">
+                <i className={meal}></i>
+                <p>{Meal}</p>
+                <p>{MealDetail}</p>
+              </div>
+              <div className="box">
+                <i className={Time}></i>
+                <p>{TimeDetail}</p>
+                <p>{dura}</p>
+              </div>
             </div>
           </div>
         </div>
