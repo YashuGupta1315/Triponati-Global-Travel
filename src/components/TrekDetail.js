@@ -1,4 +1,4 @@
-import "./TrekData.css";
+import "./TrekDetails.css";
 function TrekDetail(props){
     return(
         <>
