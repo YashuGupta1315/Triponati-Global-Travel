@@ -23,13 +23,13 @@
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 3fr);
+    grid-template-columns: repeat(5, 3fr);
     gap: 1rem;
     padding: 1.8rem;
     background-color: rgb(231, 231, 231);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    width: 600px;
 }
 .box {
     padding: 3rem;
