@@ -230,6 +230,7 @@ const Annapurana=()=>{
            
             />
             <StickyForm
+            title="BOOK NOW !!!"
              originalPrice="INR 80,000"
             discountedPrice="INR 65,000"
             discountPercentage={26}
