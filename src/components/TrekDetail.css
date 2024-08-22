@@ -15,7 +15,8 @@
 .main{
     background-color: #91b0fe;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: start;
     align-items: start;
 	position: relative;
     
@@ -23,21 +24,21 @@
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding: 20px;
+    gap: 1rem;
+    padding: 1.8rem;
     background-color: rgb(231, 231, 231);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 550px;
+    width: 80%;
 }
 .box {
-    padding: 50px;
+    padding: 3rem;
     background-color: #ffffff;
     border-radius: 10px;
     text-align: center;
 }
 .highlights{
-    padding: 4rem 3rem;
     background-color: rgb(8, 8, 115);
     color: white;
+    text-align: justify;
 }
