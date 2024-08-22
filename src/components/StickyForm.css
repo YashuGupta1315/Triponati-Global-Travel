@@ -93,7 +93,7 @@
 
 @media screen and (max-width: 850px) {
   .sticky-form-container {
-    padding: 15px; /* Adjust padding for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
   }
 
   .sticky-form h3 {
