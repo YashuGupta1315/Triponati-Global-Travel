@@ -7,9 +7,7 @@ const Accordion = ({ title, content, Max, MaxAltitude, MaxAlt, Over, OverNight, 
   };
   return (
     <>
-    <div className="iternary">
-          <h1>Outline Itinerary </h1>
-    </div>
+ 
     <div className="accordion-item">
         <div className="accordion-title" onClick={toggleAccordion}>
           <h3>{title}</h3>

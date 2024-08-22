@@ -57,6 +57,9 @@ function TrekDetail(props){
                     <li>{props.li6}</li>
                 </ul>
             </div>
+            <div className="iternary">
+                <h1>Outline Itinerary </h1>
+            </div>
         </>
     );
 }
