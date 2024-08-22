@@ -39,11 +39,12 @@
 }
 .highlights{
     background-color: rgb(8, 8, 115);
+    padding: 2rem 3rem;
     color: white;
     text-align: justify;
 }
 .iternary{
-    padding: 4rem 3rem;
+   padding-left: 1rem;
     font-size: 1.3rem;
     font-weight: 800;
     background-color:  rgb(8, 8, 115);
