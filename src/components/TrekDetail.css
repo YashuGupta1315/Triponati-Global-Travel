@@ -49,4 +49,41 @@
     font-weight: 800;
     background-color:  rgb(8, 8, 115);
     color: white;
-  }
+}
+@media screen and (max-width: 850px) {
+    .Overview {
+        padding: 2rem 1.5rem;
+    }
+
+    .Overview h1 {
+        font-size: 2rem;
+    }
+
+    .Overview p {
+        font-size: 0.9rem;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .box {
+        padding: 1.5rem;
+    }
+
+    .highlights {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .iternary {
+        padding-left: 0.5rem;
+        font-size: 1.1rem;
+    }
+}

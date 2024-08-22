@@ -3,6 +3,7 @@ import ImageGallery from "./ImageGallery";
 import TrekDetail from "./TrekDetail";
 import Accordion from "./Accordion";
 import StickyForm from "./StickyForm";
+import Footer from "./Footer";
 const images = [
  
     {
@@ -235,6 +236,8 @@ const Annapurana=()=>{
             saleType="FREEDOM SALE"
             onSubmit={handleSubmit}
             />
+        
+            <Footer/>
         </>
 
     );
