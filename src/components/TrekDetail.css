@@ -35,6 +35,8 @@
     padding: 3rem;
     background-color: #ffffff;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
     text-align: center;
 }
 .highlights{
