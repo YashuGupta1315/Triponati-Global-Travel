@@ -15,12 +15,13 @@ const images = [
         src: "https://hsj.com.np/uploads/0000/1/2023/06/23/everestview.jpg",
         alt: "Everest Base Camp Trek",
     },
+  
     {
-        src: "https://hsj.com.np/uploads/0000/386/2020/04/23/everest-group1.JPG",
+        src: "https://hsj.com.np/uploads/0000/1/2024/01/13/everest-trek-banner-3.png",
         alt: "Everest Base Camp Trek",
     },
     {
-        src: "https://hsj.com.np/uploads/0000/1/2024/01/13/everest-trek-banner-3.png",
+        src: "https://hsj.com.np/uploads/0000/386/2020/04/23/everest-group1.JPG",
         alt: "Everest Base Camp Trek",
     },
 
