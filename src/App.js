@@ -22,6 +22,12 @@ import Jharkhand from "./components/Jharkhand";
 import Karnataka  from "./components/Karnataka";
 import Kerala from "./components/Kerala";
 import Annapurana from "./components/Annapurana";
+import Manaslu from "./components/Manaslu";
+import Langtang from "./components/Langtang";
+import Gokyo from "./components/Gokyo";
+import Ghorepani from "./components/Ghorepani";
+import Everest from "./components/Everest";
+
 export default function App() {
   return (
     <div className="App">
@@ -48,6 +54,11 @@ export default function App() {
         <Route path="/Karnataka" element={<Karnataka />}/>
         <Route path="/Kerala" element={<Kerala />}/>
         <Route path="/Annapurana" element={<Annapurana/>}/>
+        <Route path="/Manaslu" element={<Manaslu/>}/>
+        <Route path="/Langtang" element={<Langtang/>}/>
+        <Route path="/Gokyo" element={<Gokyo/>}/>
+        <Route path="/Ghorepani" element={<Ghorepani/>}/>
+        <Route path="/Everest" element={<Everest/>}/>
       </Routes>
     </div>
   );
