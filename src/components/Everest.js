@@ -8,19 +8,19 @@ import Navbar from "./Navbar";
 const images = [
  
     {
-        src: "https://hsj.com.np/uploads/0000/386/2020/05/04/manasalu-banner1.jpg",
+        src: "https://hsj.com.np/uploads/0000/1/2024/01/13/everest-trek-banner-6.png",
         alt: "Everest Base Camp Trek",
     },
     {
-        src: "https://hsj.com.np/uploads/0000/1/2020/02/22/manasalu.jpg",
+        src: "https://hsj.com.np/uploads/0000/1/2023/06/23/everestview.jpg",
         alt: "Everest Base Camp Trek",
     },
     {
-        src: "https://hsj.com.np/uploads/0000/1/2020/02/22/manasalu-trek-1.jpg",
+        src: "https://hsj.com.np/uploads/0000/386/2020/04/23/everest-group1.JPG",
         alt: "Everest Base Camp Trek",
     },
     {
-        src: "https://hsj.com.np/uploads/0000/1/2023/01/21/manasalu-trek.jpg",
+        src: "https://hsj.com.np/uploads/0000/1/2024/01/13/everest-trek-banner-3.png",
         alt: "Everest Base Camp Trek",
     },
 
