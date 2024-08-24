@@ -3,6 +3,7 @@ import ImageGallery from "./ImageGallery";
 import States from "./States";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 const images = [
   {
     src: "https://www.gujarattourism.com/content/dam/gujrattourism/images/destinations/ahmedabad/banner-images/sabarmati-riverfront2.jpg",
@@ -44,6 +45,7 @@ const Gujarat = () => {
   };
   return (
     <>
+    <Navbar/>
       <ImageGallery images={images} />
       <div className="App">
         <States

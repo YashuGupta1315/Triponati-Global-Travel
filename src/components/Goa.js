@@ -3,6 +3,7 @@ import ImageGallery from "./ImageGallery";
 import States from "./States";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 const images = [
   {
     src: "https://www.tourmyindia.com/states/goa/image/fort-aguada-goa.webp",
@@ -28,6 +29,7 @@ const Goa = () => {
   };
   return (
     <>
+    <Navbar/>
       <ImageGallery images={images} />
       <div className="App">
         <States

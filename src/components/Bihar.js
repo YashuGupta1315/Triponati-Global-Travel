@@ -3,6 +3,7 @@ import ImageGallery from "./ImageGallery";
 import States from "./States";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 const images = [
   {
     src: "https://tourism.bihar.gov.in/content/dam/bihar-tourism/images/category_a/gaya/mahabodhi_temple/buddhist_gaya_category_a_mahabodhi_temple__pic_11.jpg/jcr:content/renditions/cq5dam.web.2000.765.jpeg",
@@ -44,6 +45,7 @@ const Bihar = () => {
   };
   return (
     <>
+      <Navbar/>
       <ImageGallery images={images} />
       <div className="App">
         <States

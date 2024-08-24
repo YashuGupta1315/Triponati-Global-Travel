@@ -3,6 +3,7 @@ import ImageGallery from "./ImageGallery";
 import States from "./States";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 const images = [
   {
     src: "https://images.cnbctv18.com/wp-content/uploads/2022/08/Shimla-shutterstock-1019x573.jpg",
@@ -44,6 +45,7 @@ const Himachal = () => {
   };
   return (
     <>
+    <Navbar/>
       <ImageGallery images={images} />
       <div className="App">
         <States

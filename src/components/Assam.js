@@ -3,7 +3,7 @@ import ImageGallery from "./ImageGallery";
 import States from "./States";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
-
+import Navbar from "./Navbar";
 const images = [
   {
     src: "https://www.team-bhp.com/forum/attachments/travelogues/1055341d1691508887t-kaziranga-pride-assam-dsc02557.jpg",
@@ -46,6 +46,7 @@ const Assam = () => {
 
   return (
     <>
+      <Navbar/>
       <ImageGallery images={images} />
       <div className="App">
         <States

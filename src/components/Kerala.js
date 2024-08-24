@@ -3,6 +3,7 @@ import ImageGallery from "./ImageGallery";
 import States from "./States";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 const images = [
   {
     src: "https://static.toiimg.com/photo/75663364.cms",
@@ -44,6 +45,7 @@ const Kerala = () => {
   };
   return (
     <>
+    <Navbar/>
       <ImageGallery images={images} />
       <div className="App">
         <States

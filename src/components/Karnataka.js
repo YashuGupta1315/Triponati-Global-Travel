@@ -3,6 +3,7 @@ import ImageGallery from "./ImageGallery";
 import States from "./States";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 const images = [
   {
     src: "https://karnatakatourism.org/wp-content/uploads/2020/05/Gol-Gumbaz-THUMBNAIL-400X300.jpg",
@@ -44,6 +45,7 @@ const Karnataka = () => {
   };
   return (
     <>
+    <Navbar/>
       <ImageGallery images={images} />
       <div className="App">
         <States

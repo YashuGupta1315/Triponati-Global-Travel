@@ -3,6 +3,7 @@ import ImageGallery from "./ImageGallery";
 import States from "./States";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 const images = [
   {
     src: "https://www.tourmyindia.com/blog//wp-content/uploads/2021/10/Arunachal-Pradesh-Tourism-Update.jpg",
@@ -45,6 +46,7 @@ const Arunachal = () => {
   };
   return (
     <>
+      <Navbar/>
       <ImageGallery images={images} />
       <div className="App">
         <States
