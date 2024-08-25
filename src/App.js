@@ -32,6 +32,7 @@ import Everest from "./components/Everest";
 import Manipur from "./components/Manipur";
 import Meghalaya from "./components/Meghalaya";
 import Mizoram from "./components/Mizoram";
+import Nagaland from "./components/Nagaland";
 
 export default function App() {
   return (
@@ -69,6 +70,7 @@ export default function App() {
         <Route path="/Maharashtra" element={<Maharashtra/>}/>
         <Route path="/Meghalaya" element={<Meghalaya/>}/>
         <Route path="/Mizoram" element={<Mizoram/>}/>
+        <Route path="/Nagaland" element={<Nagaland/>}/>
       </Routes>
     </div>
   );
