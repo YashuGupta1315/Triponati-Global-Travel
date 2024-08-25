@@ -166,7 +166,7 @@ function India() {
             Img="https://images.unsplash.com/photo-1695395550316-8995ae9d35ff?q=80&w=2056&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt=" Rajasthan "
             header="Rajasthan"
-            Url="/"
+            Url="/Rajasthan"
             visit="Visit"
           />
         </div>
