@@ -152,7 +152,7 @@ function India() {
             Img="https://images.unsplash.com/photo-1707241934268-5a0c8e206d9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt="Odisha"
             header="Odisha"
-            Url="/"
+            Url="/Odisha"
             visit="Visit"
           />
           <IndiaData

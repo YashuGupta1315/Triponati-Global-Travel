@@ -33,6 +33,7 @@ import Manipur from "./components/Manipur";
 import Meghalaya from "./components/Meghalaya";
 import Mizoram from "./components/Mizoram";
 import Nagaland from "./components/Nagaland";
+import Odisha from "./components/Odisha";
 
 export default function App() {
   return (
@@ -71,6 +72,7 @@ export default function App() {
         <Route path="/Meghalaya" element={<Meghalaya/>}/>
         <Route path="/Mizoram" element={<Mizoram/>}/>
         <Route path="/Nagaland" element={<Nagaland/>}/>
+        <Route path="/Odisha" element={<Odisha/>}/>
       </Routes>
     </div>
   );
