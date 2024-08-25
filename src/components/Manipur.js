@@ -6,36 +6,36 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 const images = [
   {
-    src: "",
-    alt: "Bhopal",
+    src: "https://img.traveltriangle.com/blog/wp-content/uploads/2019/01/cover-for-Places-To-Visit-In-Manipur.jpg",
+    alt: "Imphal",
   },
   {
-    src: "",
-    alt: "Bhedaghat",
+    src: "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/01/18/41382e8a00fb64504e33762e52d83b21_1000x1000.jpg",
+    alt: "Moreh",
   },
   {
-    src: "",
-    alt: "Jabalpur",
+    src: "https://im.hunt.in/cg/man/About/Tourism/CCpur_Waterfall.jpg",
+    alt: "Churachandpur",
   },
   {
-    src: "",
-    alt: "Rewa",
+    src: "https://qph.cf2.quoracdn.net/main-qimg-dd60e3537b3fa462644add35a8f55ec1-lq",
+    alt: "Loktak Lake",
   },
   {
-    src: "",
-    alt: "Panchmarhi",
+    src: "https://manipurtourism.gov.in/wp-content/uploads/2020/08/MM.jpg",
+    alt: "Ukhrul",
   },
   {
-    src: "",
-    alt: "Sailani Island",
+    src: "https://i.pinimg.com/736x/54/62/df/5462df1dc4e3fec91adb625d51268635.jpg",
+    alt: "Keibul Lamjao National Park",
   },
   {
-    src: "",
-    alt: "Satpura",
+    src: "https://qph.cf2.quoracdn.net/main-qimg-7a1126538bb66b659a5a28446bc1ede5-lq",
+    alt: "Moirang",
   },
   {
-    src: "",
-    alt: "Pristine Tamia ",
+    src: "https://www.shutterstock.com/shutterstock/videos/3481128075/thumb/1.jpg?ip=x480",
+    alt: "Tamenglong",
   },
 ];
 const Manipur = () => {
@@ -58,7 +58,7 @@ const Manipur = () => {
           para1="168 hours"
         />
         <StickyForm
-          title="Bhopal | Satpura - Jabalpur - Bhedaghat - Pristine Tamia - Panchmarhi: Get 26% off!"
+          title="Imphal | Moreh - Churachandpur - Loktak Lake - Ukhrul - Keibul Lamjao National Park - Moirang : Get 26% off!"
           originalPrice="INR 80,000"
           discountedPrice="INR 59,200"
           discountPercentage={26}
