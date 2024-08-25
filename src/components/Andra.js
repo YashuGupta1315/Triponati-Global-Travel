@@ -3,7 +3,7 @@ import ImageGallery from "./ImageGallery";
 import States from "./States";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
-
+import Navbar from "./Navbar";
 const images = [
   {
     src: "https://etimg.etb2bimg.com/photo/89314482.cms",
@@ -46,6 +46,7 @@ const Andra = () => {
 
   return (
     <>
+      <Navbar/>
       <ImageGallery images={images} />
       <div className="App">
         <States

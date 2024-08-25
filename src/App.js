@@ -21,12 +21,17 @@ import Himachal from "./components/Himachal";
 import Jharkhand from "./components/Jharkhand";
 import Karnataka  from "./components/Karnataka";
 import Kerala from "./components/Kerala";
+import Madhya from "./components/Madhya";
+import Maharashtra from "./components/Maharashtra";
 import Annapurana from "./components/Annapurana";
 import Manaslu from "./components/Manaslu";
 import Langtang from "./components/Langtang";
 import Gokyo from "./components/Gokyo";
 import Ghorepani from "./components/Ghorepani";
 import Everest from "./components/Everest";
+import Manipur from "./components/Manipur";
+import Meghalaya from "./components/Meghalaya";
+import Mizoram from "./components/Mizoram";
 
 export default function App() {
   return (
@@ -59,6 +64,11 @@ export default function App() {
         <Route path="/Gokyo" element={<Gokyo/>}/>
         <Route path="/Ghorepani" element={<Ghorepani/>}/>
         <Route path="/Everest" element={<Everest/>}/>
+        <Route path="/Madhya" element={<Madhya/>}/>
+        <Route path="/Manipur" element={<Manipur/>}/>
+        <Route path="/Maharashtra" element={<Maharashtra/>}/>
+        <Route path="/Meghalaya" element={<Meghalaya/>}/>
+        <Route path="/Mizoram" element={<Mizoram/>}/>
       </Routes>
     </div>
   );

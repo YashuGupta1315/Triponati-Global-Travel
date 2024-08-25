@@ -106,21 +106,21 @@ function India() {
             Img="https://plus.unsplash.com/premium_photo-1661930618375-aafabc2bf3e7?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt=" Madhya Pradesh"
             header="Madhya Pradesh"
-            Url="/"
+            Url="/Madhya"
             visit="Visit"
           />
           <IndiaData
             Img="https://images.unsplash.com/photo-1696309064246-64de58a83a3c?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt="Maharashtra"
             header="Maharashtra"
-            Url="/"
+            Url="/Maharashtra"
             visit="Visit"
           />
           <IndiaData
             Img="https://plus.unsplash.com/premium_photo-1691031428291-1db669413fa0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt=" Manipur "
             header="Manipur"
-            Url="/"
+            Url="/Manipur"
             visit="Visit"
           />
         </div>
@@ -129,14 +129,14 @@ function India() {
             Img="https://images.unsplash.com/photo-1691336770830-4b157e3767cd?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt="Meghalaya"
             header="Meghalaya"
-            Url="/"
+            Url="/Meghalaya"
             visit="Visit"
           />
           <IndiaData
             Img="https://images.unsplash.com/photo-1629406989647-ed5e7e39e721?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             Alt="Mizoram"
             header="Mizoram"
-            Url="/"
+            Url="/Mizoram"
             visit="Visit"
           />
           <IndiaData
