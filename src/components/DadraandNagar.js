@@ -9,30 +9,37 @@ const images = [
     src: "https://www.incredibleindia.org/content/dam/incredibleindia/images/places/daman/daman-devka-beach-40.jpg/_jcr_content/renditions/cq5dam.web.1024.576.jpeg",
     alt: "Devka Beach",
   },
+
   {
     src: "https://www.incredibleindia.org/content/dam/incredibleindia/images/places/daman/daman-mirasol-lake-garden-50.jpg/_jcr_content/renditions/cq5dam.web.1024.576.jpeg",
     alt: "Nani Daman Jetty",
   },
+
   {
     src: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/places/daman-diu-dadra-nagar-haveli/fort-of-saint-jerome-1.JPG/_jcr_content/renditions/cq5dam.web.1024.576.jpeg",
     alt: "Saint Jerome",
   },
+
   {
     src: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/places/daman-diu-dadra-nagar-haveli/chapel-of-our-lady-of-remedios-2.JPG/_jcr_content/renditions/cq5dam.web.1024.576.jpeg",
     alt: "Dominican Monastery",
   },
+
   {
     src: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/places/daman-diu-dadra-nagar-haveli/aquaserene-tourist-complex-dudhani-10.jpg/_jcr_content/renditions/cq5dam.web.1024.576.jpeg",
     alt: "Moti Daman Jetty",
   },
+
   {
     src: "https://www.incredibleindia.org/content/dam/incredibleindia/images/places/daman/daman-light-house-50.jpg/_jcr_content/renditions/cq5dam.web.1024.576.jpeg",
     alt: "Lighthouse Beach",
   },
+
   {
     src: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/places/daman-diu-dadra-nagar-haveli/satmaliya-deer-park-1.JPG/_jcr_content/renditions/cq5dam.web.1024.576.jpeg",
     alt: "Jampore Beach",
   },
+  
   {
     src: "https://www.incredibleindia.org/content/dam/incredibleindia/images/silvassa/dadra-and-nagar-haveli-silvassa-water-sports-centre-dudhani--1.jpg/_jcr_content/renditions/cq5dam.web.1024.576.jpeg",
     alt: "Vanganga Lake",
