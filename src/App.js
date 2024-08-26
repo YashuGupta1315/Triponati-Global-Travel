@@ -38,6 +38,7 @@ import Punjab from "./components/Punjab";
 import Rajasthan from "./components/Rajasthan";
 import Sikkim from "./components/Sikkim";
 import TamilNadu from "./components/TamilNadu";
+import Telangana from "./components/Telangana";
 export default function App() {
   return (
     <div className="App">
@@ -80,6 +81,7 @@ export default function App() {
         <Route path="/Rajasthan" element={<Rajasthan/>}/>
         <Route path="/Sikkim" element={<Sikkim/>}/>
         <Route path="/TamilNadu" element={<TamilNadu/>}/>
+        <Route path="/Telangana" element={<Telangana/>}/>
       </Routes>
     </div>
   );
