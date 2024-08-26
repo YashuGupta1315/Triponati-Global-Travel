@@ -43,6 +43,7 @@ import Tripura from "./components/Tripura";
 import UttarPradesh from "./components/UttarPradesh";
 import Uttarakhand from "./components/Uttarakhand";
 import WestBengal from "./components/WestBengal";
+import DadraandNagar from "./components/DadraandNagar";
 
 export default function App() {
   return (
@@ -92,6 +93,7 @@ export default function App() {
         <Route path="/Uttarakhand" element={<Uttarakhand/>}/>
         <Route path="/WestBengal" element={<WestBengal/>}/>
         <Route path="/AndamanandNicobar" element={<AndamanandNicobar/>}/>
+        <Route path="/DadraandNagar" element={<DadraandNagar/>}/>
       </Routes>
     </div>
   );
