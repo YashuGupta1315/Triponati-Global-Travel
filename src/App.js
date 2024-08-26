@@ -91,6 +91,7 @@ export default function App() {
         <Route path="/UttarPradesh" element={<UttarPradesh/>}/>
         <Route path="/Uttarakhand" element={<Uttarakhand/>}/>
         <Route path="/WestBengal" element={<WestBengal/>}/>
+        <Route path="/AndamanandNicobar" element={<AndamanandNicobar/>}/>
       </Routes>
     </div>
   );
