@@ -45,6 +45,7 @@ import Uttarakhand from "./components/Uttarakhand";
 import WestBengal from "./components/WestBengal";
 import DadraandNagar from "./components/DadraandNagar";
 import Lakshadweep from "./components/Lakshadweep";
+import Delhi from "./components/Delhi";
 
 export default function App() {
   return (
@@ -96,6 +97,7 @@ export default function App() {
         <Route path="/AndamanandNicobar" element={<AndamanandNicobar/>}/>
         <Route path="/DadraandNagar" element={<DadraandNagar/>}/>
         <Route path="/Lakshadweep" element={<Lakshadweep/>}/>
+        <Route path="/Delhi" element={<Delhi/>}/>
       </Routes>
     </div>
   );
