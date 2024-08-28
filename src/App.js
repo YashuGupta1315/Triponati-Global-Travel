@@ -49,6 +49,7 @@ import Delhi from "./components/Delhi";
 import Puducherry from "./components/Puducherry";
 import Ladakh from "./components/Ladakh";
 import JammuandKashmir from "./components/JammuandKashmir";
+import AndamanandNicobar from "./components/AndamanandNicobar";
 
 export default function App() {
   return (
