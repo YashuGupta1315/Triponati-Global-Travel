@@ -1,6 +1,6 @@
 import React from "react";
 import ImageGallery from "./ImageGallery";
-import AccordionAdvAdv from "./AccordionAdvAdv";
+import AccordionAdv from "./AccordionAdv";
 import StickyForm from "./StickyForm";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
