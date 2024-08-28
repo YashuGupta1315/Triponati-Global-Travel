@@ -12,7 +12,7 @@ function AdventureIn() {
           Alt="Sky Diving"
           header="Sky Diving"
           text="Are you ready to unleash your inner daredevil? This year, step out of your comfort zone and take the plunge with an adventure that will leave you breathless and exhilarated. Get ready to experience the ultimate rush of adrenaline with the Pokhara Skydive – the latest addition to the world of extreme sports !"
-          Url="/"
+          Url="/SkyDiving"
           visit="Book Now"
         />
         <AdvData
