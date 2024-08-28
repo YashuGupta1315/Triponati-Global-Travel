@@ -277,8 +277,8 @@ function India() {
 
           <IndiaData
             Img="https://images.unsplash.com/photo-1712925359348-462f7b342815?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            Alt=" Jammu and Kashmir"
-            header=" Jammu and Kashmir"
+            Alt=" Jammu and Kashmir"
+            header=" Jammu and Kashmir"
             Url="/JammuandKashmir"
             visit="Visit"
           />
