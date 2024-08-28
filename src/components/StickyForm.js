@@ -7,12 +7,16 @@ const StickyForm = ({
   discountedPrice,
   discountPercentage,
   saleType,
-  onSubmit,
+  onSubmit, // Optional, can be used to handle form submission in parent component
 }) => {
   const [formData, setFormData] = useState({
+    name: "",
+    email: "",
     countryCode: "+91",
     phone: "",
-    // Other form fields if needed
+    travelDate: "",
+    travellerCount: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -23,13 +27,68 @@ const StickyForm = ({
     }));
   };
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const { name, email, phone, countryCode, travelDate, travellerCount, message } = formData;
+    
+    try {
+      const res = await fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          phone,
+          countryCode,
+          travelDate,
+          travellerCount,
+          message,
+        }),
+      });
+
+      if (res.ok) {
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          countryCode: "+91",
+          travelDate: "",
+          travellerCount: "",
+          message: "",
+        });
+        alert("Form Submitted!!");
+      } else {
+        alert("Failed to submit form!");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("An error occurred while submitting the form.");
+    }
+  };
+
   return (
     <div className="sticky-form-container">
       <div className="sticky-form">
         <h3>{title}</h3>
-        <form onSubmit={onSubmit}>
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="Your Email"
+            required
+          />
           <div className="form-group phone-group">
             <select
               name="countryCode"
@@ -59,17 +118,33 @@ const StickyForm = ({
               required
             />
           </div>
-          <input type="date" placeholder="Choose Date of Travel" required />
-          <select required>
-            <option value="" disabled selected>
-              Traveller Count
-            </option>
+          <input
+            type="date"
+            name="travelDate"
+            value={formData.travelDate}
+            onChange={handleChange}
+            placeholder="Choose Date of Travel"
+            required
+          />
+          <select
+            name="travellerCount"
+            value={formData.travellerCount}
+            onChange={handleChange}
+            required
+          >
+            <option value="" disabled>Select Traveller Count</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
+            {/* Add more options as needed */}
           </select>
-          <textarea placeholder="Message"></textarea>
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            placeholder="Message"
+          ></textarea>
           <button type="submit">Submit</button>
         </form>
       </div>
