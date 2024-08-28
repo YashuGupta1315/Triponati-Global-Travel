@@ -48,6 +48,7 @@ import Lakshadweep from "./components/Lakshadweep";
 import Delhi from "./components/Delhi";
 import Puducherry from "./components/Puducherry";
 import Ladakh from "./components/Ladakh";
+import JammuandKashmir from "./components/JammuandKashmir";
 
 export default function App() {
   return (
@@ -102,6 +103,7 @@ export default function App() {
         <Route path="/Delhi" element={<Delhi/>}/>
         <Route path="/Puducherry" element={<Puducherry/>}/>
         <Route path="/Ladakh" element={<Ladakh/>}/>
+        <Route path="/JammuandKashmir" element={<JammuandKashmir/>}/>
       </Routes>
     </div>
   );
