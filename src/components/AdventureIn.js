@@ -21,7 +21,7 @@ function AdventureIn() {
           header="Glider Rides"
           text="
           Prepare for an exhilarating journey into the skies above Pokhara with our Ultralight Glider Flight Experience. From the moment of takeoff to the gentle landing, our experienced pilots will guide you through the skies, offering unparalleled views and unmatched thrills."
-          Url="/"
+          Url="/GliderRides"
           visit="Book Now"
         />
       </div>

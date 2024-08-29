@@ -51,6 +51,7 @@ import Ladakh from "./components/Ladakh";
 import JammuandKashmir from "./components/JammuandKashmir";
 import AndamanandNicobar from "./components/AndamanandNicobar";
 import SkyDiving from "./components/SkyDiving";
+import GliderRides from "./components/GliderRides";
 
 export default function App() {
   return (
@@ -107,6 +108,7 @@ export default function App() {
         <Route path="/Ladakh" element={<Ladakh/>}/>
         <Route path="/JammuandKashmir" element={<JammuandKashmir/>}/>
         <Route path="/SkyDiving" element={<SkyDiving/>}/>
+        <Route path="/GliderRides" element={<GliderRides/>}/>
       </Routes>
     </div>
   );

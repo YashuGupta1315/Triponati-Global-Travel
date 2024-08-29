@@ -7,7 +7,7 @@ import AdventureDetail from "./AdventureDetail";
 import AccordionAdv from "./AccordionAdv";
 const images = [
     {
-      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR83VeE04zqC9MUtezEoVa96hLId0GKDcZ_LQ&s",
+      src: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/49/fc/52.jpg",
       alt: "Pokhara",
     },
     {
