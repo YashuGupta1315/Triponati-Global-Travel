@@ -49,7 +49,7 @@ function AdventureIn() {
           Alt="Helicopter Tour"
           header="Helicopter Tour"
           text="Pokhara heli sightseing tour is an amazing helicopter ride over the Phewa Lake and the Pokhara city. The helicopter tour gives an opportunity to explore the green and clean city Pokhara from the aerial view. "
-          Url="/"
+          Url="/HelicopterTour"
           visit="Book Now"
         />
         <AdvData
