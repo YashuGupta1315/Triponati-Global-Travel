@@ -53,6 +53,7 @@ import AndamanandNicobar from "./components/AndamanandNicobar";
 import SkyDiving from "./components/SkyDiving";
 import GliderRides from "./components/GliderRides";
 import HotAirBallon from "./components/HotAirBallon";
+import Paragliding from "./components/Paragliding";
 
 export default function App() {
   return (
@@ -111,6 +112,7 @@ export default function App() {
         <Route path="/SkyDiving" element={<SkyDiving/>}/>
         <Route path="/GliderRides" element={<GliderRides/>}/>
         <Route path="/HotAirBallon" element={<HotAirBallon/>}/>
+        <Route path="/Paragliding" element={<Paragliding/>}/>
       </Routes>
     </div>
   );

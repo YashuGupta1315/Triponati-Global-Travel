@@ -39,7 +39,7 @@ function AdventureIn() {
           Alt="Paragliding"
           header="Paragliding"
           text="Paragliding in Pokhara will be your greatest option if you are thinking about engaging in any challenging and thrilling sports to get over your phobia. In Nepal, paragliding is one of the most popular adventure activities. Your initial paragliding adventure might be started at Pokhara."
-          Url="/"
+          Url="/Paragliding"
           visit="Book Now"
         />
       </div>
