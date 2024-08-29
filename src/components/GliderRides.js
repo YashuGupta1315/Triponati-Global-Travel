@@ -52,6 +52,7 @@ const SkyDiving = () =>{
             li3="Expert pilots ensure safety and provide insightful commentary"
             li4="High safety standards with professional tandem instructors"
             li5="the picturesque landscapes of Pokhara, including the shimmering waters of Phewa Lake and the snow-capped peaks of the Annapurna Range, you'll witness the region's beauty from a perspective few have the opportunity to experience"
+            li6="Capture jaw-dropping photos of the landscapes below, creating memories that will last a lifetime."
             />
             <AccordionAdv title="8:00 AM - Hotel Pickup"
             content="Meet your driver at your hotel in Pokhara.Transfer to Pokhara Airport, where the ultralight flight adventure begins."
