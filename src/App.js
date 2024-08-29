@@ -52,6 +52,7 @@ import JammuandKashmir from "./components/JammuandKashmir";
 import AndamanandNicobar from "./components/AndamanandNicobar";
 import SkyDiving from "./components/SkyDiving";
 import GliderRides from "./components/GliderRides";
+import HotAirBallon from "./components/HotAirBallon";
 
 export default function App() {
   return (
@@ -109,6 +110,7 @@ export default function App() {
         <Route path="/JammuandKashmir" element={<JammuandKashmir/>}/>
         <Route path="/SkyDiving" element={<SkyDiving/>}/>
         <Route path="/GliderRides" element={<GliderRides/>}/>
+        <Route path="/HotAirBallon" element={<HotAirBallon/>}/>
       </Routes>
     </div>
   );

@@ -31,7 +31,7 @@ function AdventureIn() {
           Alt="Hot Air Ballon"
           header="Hot Air Ballon"
           text="Embark on a majestic journey to the heights of the sky, where you can feel the cool breeze caress your face and marvel at the awe-inspiring views of Fishtail, Annapurna, and Dhaulagiri mountain ranges along the city of lakes Pokhara"
-          Url="/"
+          Url="/HotAirBallon"
           visit="Book Now"
         />
         <AdvData
