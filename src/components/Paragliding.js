@@ -7,19 +7,19 @@ import AdventureDetail from "./AdventureDetail";
 import AccordionAdv from "./AccordionAdv";
 const images = [
     {
-      src: "",
+      src: "https://cdn.getyourguide.com/img/tour/d7f09689242bc802.jpeg/145.jpg",
       alt: "Paragliding",
     },
     {
-        src: "",
+        src: "https://cdn.getyourguide.com/img/tour/6227a6a9bcf55318.jpeg/145.jpg",
         alt: "Paragliding",
     },
     {
-        src: "",
+        src: "https://cdn.getyourguide.com/img/tour/9c6ec46be5cf7f53.jpeg/145.jpg",
         alt: "Paragliding",
     },
     {
-        src: "",
+        src: "https://cdn.getyourguide.com/img/tour/ba5d830fd62f9af0.jpeg/145.jpg",
         alt: "Paragliding",
     },
       
