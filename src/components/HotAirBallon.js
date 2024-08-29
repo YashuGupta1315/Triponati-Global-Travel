@@ -67,8 +67,8 @@ const HotAirBallon = () =>{
             
             <StickyForm 
                 title="BOOK NOW !!!"
-                originalPrice="INR 20,000"
-               discountedPrice="INR 14,800"
+                originalPrice="INR 30,000"
+               discountedPrice="INR 22,200"
                discountPercentage={26}
                saleType="FREEDOM SALE"
                onSubmit={handleSubmit}
