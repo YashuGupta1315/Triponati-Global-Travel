@@ -67,7 +67,7 @@ function AdventureIn() {
           Alt="River Rafting"
           header="River Rafting"
           text="Enjoy river rafting in Pokhara on the Upper Seti River in the adventure capital of the world.This half-day rafting activity is an exhilarating experience that takes about 1.5 hours for completion.You get a view of the snow-capped Annapurna mountain range while you paddle on the clean water that comes from the Himalayas."
-          Url="/"
+          Url="/RiverRafting"
           visit="Book Now"
         />
         <AdvData
