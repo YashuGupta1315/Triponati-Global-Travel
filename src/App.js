@@ -55,6 +55,8 @@ import GliderRides from "./components/GliderRides";
 import HotAirBallon from "./components/HotAirBallon";
 import Paragliding from "./components/Paragliding";
 import HelicopterTour from  "./components/HelicopterTour";
+import BungeeJumping from "./components/BungeeJumping";
+
 export default function App() {
   return (
     <div className="App">
@@ -114,6 +116,7 @@ export default function App() {
         <Route path="/HotAirBallon" element={<HotAirBallon/>}/>
         <Route path="/Paragliding" element={<Paragliding/>}/>
         <Route path="/HelicopterTour" element={<HelicopterTour/>}/>
+        <Route path="/BungeeJumping" element={<BungeeJumping/>}/>
       </Routes>
     </div>
   );

@@ -10,10 +10,7 @@ const images = [
       src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqBbiKX5EymJ1SyAoG0vNlrgyfbkP2QXMj_w&s",
       alt: "Helicopter Tour",
     },
-    {
-        src: "https://www.swisshelicopter.ch/components/com_jshopping/files/img_products/Helikopter-Alpenflug-Oberengadiner-Gletscher.jpg",
-        alt: "Helicopter Tour",
-    },
+    
     {
         src: "https://www.nepaltour.info/wp-content/uploads/2019/03/pokhara-to-annapurna-base-c.jpg",
         alt: "Helicopter Tour",
@@ -22,7 +19,10 @@ const images = [
         src: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5c/c1/2a/caption.jpg?w=500&h=400&s=1",
         alt: "Helicopter Tour",
     },
-      
+    {
+        src: "https://www.swisshelicopter.ch/components/com_jshopping/files/img_products/Helikopter-Alpenflug-Oberengadiner-Gletscher.jpg",
+        alt: "Helicopter Tour",
+    },
 ];
 
 const HelicopterTour = () =>{

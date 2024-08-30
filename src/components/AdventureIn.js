@@ -57,6 +57,7 @@ function AdventureIn() {
           Alt="Bungee Jumping"
           header="Bungee Jumping"
           text="If you are an adventure hunter and want to go for an activity that actually can pump up your heart's race rate, feel the free fall, and flex your strength and mental ability to take risks, bungee jumping in Pokhara is the best thing you can do."
+          Url="/BungeeJumping"
           visit="Book Now"
         />
       </div>
