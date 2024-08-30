@@ -4,7 +4,7 @@ import StickyForm from "./StickyForm";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import AdventureDetail from "./AdventureDetail";
-import AccordionAdv from "./AccordionAdv";
+
 const images = [
     {
       src: "https://media2.thrillophilia.com/images/photos/000/134/639/original/1539861676_bali-sobek-ayung-rafting_62bcccbdbd7732466a2bf365a1a7e5e7379e9686.jpg?",
@@ -34,7 +34,7 @@ const RiverRafting = () =>{
             <Navbar/>
 
             <ImageGallery images={images} />
-            <AdventureDetail heading="RiverRafting"
+            <AdventureDetail heading="River Rafting"
             para="Are you looking for an amazing way to spend time while in Pokhara? If you are an adventure hunter and would love to experience the white-water sport, river rafting in Pokhara is a perfect option for you. Just imagine yourself wearing a life jacket, paddling, and fighting against the current of the Set River, doesn't that sound like a must-do adventure for adrenaline junkies?
 
 This is exactly what the Seti River Rafting in Pokhara package from Green Valley Nepal Treks offers. One and half hours of aquatic sport along the white water of Seti River, where the mesmerizing landscapes, untouched areas, unique tradition, culture, and majestic Annapurna range look at you as you paddle. Rafting in Pokhara, however, is not just about an aquatic sports experience, it is also an activity where you can enhance your team's playing ability. The sport teaches you to work alongside the team because rafting is a proper team sport.

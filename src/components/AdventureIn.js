@@ -75,6 +75,7 @@ function AdventureIn() {
           Alt="Jungle Safari"
           header="Jungle Safari"
           text="Explore Nepal's wild side with our Chitwan Jungle Safari from Kathmandu/Pokhara. Encounter exotic wildlife, cruise along the Rapti River & immerse in local culture for an unforgettable adventure"
+          Url="/JungleSafari"
           visit="Book Now"
         />
       </div>

@@ -4,7 +4,7 @@ import StickyForm from "./StickyForm";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import AdventureDetail from "./AdventureDetail";
-import AccordionAdv from "./AccordionAdv";
+
 const images = [
     {
       src: "https://cdn.getyourguide.com/img/tour/d7f09689242bc802.jpeg/145.jpg",

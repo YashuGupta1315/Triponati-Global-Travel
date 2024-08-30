@@ -4,7 +4,7 @@ import StickyForm from "./StickyForm";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import AdventureDetail from "./AdventureDetail";
-import AccordionAdv from "./AccordionAdv";
+
 const images = [
     {
       src: "https://www.holidify.com/images/cmsuploads/compressed/Bungee-Jumping-in-Pokhara-Adventure-sports-Nepal_20200106132253.jpg",

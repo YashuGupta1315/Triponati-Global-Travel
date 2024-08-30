@@ -57,6 +57,7 @@ import Paragliding from "./components/Paragliding";
 import HelicopterTour from  "./components/HelicopterTour";
 import BungeeJumping from "./components/BungeeJumping";
 import RiverRafting from "./components/RiverRafting";
+import JungleSafari from "./components/JungleSafari";
 
 export default function App() {
   return (
@@ -119,6 +120,10 @@ export default function App() {
         <Route path="/HelicopterTour" element={<HelicopterTour/>}/>
         <Route path="/BungeeJumping" element={<BungeeJumping/>}/>
         <Route path="/RiverRafting" element={<RiverRafting/>}/>
+        <Route path="/JungleSafari" element={<JungleSafari/>}/>
+
+
+
       </Routes>
     </div>
   );
