@@ -11,22 +11,32 @@ const  Thailand = () => {
         { 
             id: 1, 
             title: 'Home Slide 1', 
-            image: ''
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRldIdayZfI093kfMWZezJ7gOTKLiYm-zY--A&s'
         },
         { 
             id: 2, 
             title: 'Home Slide 2', 
-            image: '' 
+            image: 'https://images.herzindagi.info/image/2022/Jul/places-to-visit-in-thailand.jpg' 
         },
         { 
             id: 3, 
             title: 'Home Slide 3', 
-            image: '' 
+            image: 'https://etgstagingstorage.blob.core.windows.net/etgfilescontainer/etg/media/blogs/thailand/thailand-historical-landmarks-wat-plai-laem-thailand.jpg' 
         },
         { 
             id: 4, 
             title: 'Home Slide 4', 
-            image: '' 
+            image: 'https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_650/v1620250334/10-Best-Attractions-Thailand-Sukhothai-Wat/10-Best-Attractions-Thailand-Sukhothai-Wat.jpg' 
+        },
+        { 
+            id: 5, 
+            title: 'Home Slide 5', 
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSchvKi1KFdfaYIQuotzm64TibcaxeNjzlZpw&s' 
+        },
+        { 
+            id: 6, 
+            title: 'Home Slide 6', 
+            image: 'https://img.veenaworld.com/wp-content/uploads/2019/11/florian-wehde-y3sidWvDxg-unsplash.jpg' 
         },
       ];
     
