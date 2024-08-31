@@ -58,6 +58,7 @@ import HelicopterTour from  "./components/HelicopterTour";
 import BungeeJumping from "./components/BungeeJumping";
 import RiverRafting from "./components/RiverRafting";
 import JungleSafari from "./components/JungleSafari";
+import Thailand from "./components/Thailand";
 
 export default function App() {
   return (
@@ -121,7 +122,7 @@ export default function App() {
         <Route path="/BungeeJumping" element={<BungeeJumping/>}/>
         <Route path="/RiverRafting" element={<RiverRafting/>}/>
         <Route path="/JungleSafari" element={<JungleSafari/>}/>
-
+        <Route path="/Thailand" element={<Thailand/>}/>
 
 
       </Routes>

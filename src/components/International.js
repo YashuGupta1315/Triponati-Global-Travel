@@ -67,7 +67,7 @@ function International() {
             Alt="Thailand"
             header="Thailand"
             text="Thailand, located in Southeast Asia, is known for its vibrant culture, rich history, and stunning natural landscapes. The country boasts a mix of bustling cities like Bangkok, tranquil temples, and picturesque beaches such as those in Phuket and Krabi. Thailand's cuisine, famous for its spicy and flavorful dishes like Pad Thai and Tom Yum, is beloved worldwide. The warm hospitality of the Thai people, combined with the country's unique traditions, festivals like Songkran, and bustling markets, makes Thailand a top destination for travelers seeking both adventure and relaxation."
-            Url="/"
+            Url="/Thailand"
             visit="Visit Now!"
           />
           <InternationData

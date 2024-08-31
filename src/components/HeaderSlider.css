@@ -1,0 +1,24 @@
+.header-slider {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+  @media screen and (max-width: 850px) {
+    .header-slider {
+      max-width: 100%; 
+      padding: 0 10px; 
+    }
+  
+    .slider-image {
+      height: 200px; 
+      object-fit: cover; 
+    }
+}
