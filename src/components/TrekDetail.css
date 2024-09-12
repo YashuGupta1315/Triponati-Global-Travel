@@ -13,7 +13,7 @@
     font-weight: 500;
 }
 .highlights h1{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
 }
 .main{
@@ -47,7 +47,7 @@
     padding: 2rem 3rem;
 
 }
-.highlights p{
+.highlights li{
     text-align: justify;
     font-size: 1rem;
 }
