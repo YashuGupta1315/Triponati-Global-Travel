@@ -122,7 +122,7 @@ export default function App() {
         <Route path="/BungeeJumping" element={<BungeeJumping/>}/>
         <Route path="/RiverRafting" element={<RiverRafting/>}/>
         <Route path="/JungleSafari" element={<JungleSafari/>}/>
-        <Route path="/Thailand" element={<Thailand/>}/>
+        <Route path="/Thailand" element={<Thailand/>}/>{" "}
 
 
       </Routes>

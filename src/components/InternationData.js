@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./InternationalStyle.css";
 function InternationData(props) {
   return (
