@@ -8,11 +8,11 @@ const HeaderSlider = ({ slides, settings }) => {
   const defaultSettings = {
     dots: true,
     infinite: true,
-    speed: 300,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000, 
+    autoplaySpeed: 3000, 
     pauseOnHover: false,
     cssEase: "linear",
     responsive: [
@@ -22,7 +22,7 @@ const HeaderSlider = ({ slides, settings }) => {
             slidesToShow: 1,  
             slidesToScroll: 1,
             dots: true,
-            autoplaySpeed: 2500, 
+            autoplaySpeed: 4000, 
           }
         }
       ]

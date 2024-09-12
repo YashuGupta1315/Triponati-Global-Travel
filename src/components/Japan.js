@@ -88,11 +88,11 @@ const  Japan = () => {
       const homePageSettings = {
         dots: false,
         infinite: true,
-        speed: 300,
+        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
         pauseOnHover: true,
       };
       const handleSubmit = (event) => {
