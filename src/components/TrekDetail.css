@@ -41,10 +41,13 @@
     border-radius: 10px;
     text-align: center;
 }
-.highlights p{
+.highlights{
     background-color: rgb(8, 8, 115);
-    padding: 2rem 3rem;
     color: white;
+    padding: 2rem 3rem;
+
+}
+.highlights p{
     text-align: justify;
     font-size: 1rem;
 }

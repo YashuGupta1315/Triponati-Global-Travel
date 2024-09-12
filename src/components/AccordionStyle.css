@@ -51,9 +51,7 @@ position: relative;
 @media screen and (max-width: 850px) {
   .accordion-title {
     font-size: 0.8rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+   
   }
 
   .accordion-content {
