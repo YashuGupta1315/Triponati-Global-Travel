@@ -43,11 +43,11 @@ const  Thailand = () => {
       const homePageSettings = {
         dots: false,
         infinite: true,
-        speed: 800,
+        speed: 900,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 4000,
         pauseOnHover: true,
       };
       return(
@@ -217,8 +217,13 @@ Phuket
 
                 
             />
-          
-            <StickyForm/>
+            <StickyForm 
+            title="Wonders of Thailand | Culture, Corals and Coastlines"
+            originalPrice="INR 60,200"
+            discountedPrice="INR 49,500"
+            saleType="SAVE INR 10,700"
+            onSubmit={handleSubmit}
+            />
             <Footer/>
         </>
       );
