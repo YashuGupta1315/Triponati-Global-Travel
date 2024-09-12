@@ -75,7 +75,7 @@ function International() {
             Alt="Japan"
             header="Japan"
             text="Japan is an island nation in East Asia, known for its rich cultural heritage, advanced technology, and stunning natural landscapes. It blends ancient traditions with modern innovations, evident in its historic temples and cutting-edge cities like Tokyo. The country is renowned for its cuisine, including sushi and ramen, and its cultural exports, such as anime and manga. Japan's seasonal beauty, from cherry blossoms in spring to vibrant autumn foliage, along with its disciplined, respectful society, makes it a unique and fascinating place to explore."
-            Url="/"
+            Url="/Japan"
             visit="Visit Now!"
           />
           <InternationData

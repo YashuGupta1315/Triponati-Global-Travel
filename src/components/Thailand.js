@@ -159,13 +159,7 @@ const  Thailand = () => {
             />
             <Accordion 
                 title="DAY 6 : Day Trip to Phi Phi Island"
-                content="In the morning, get transferred to 
-Phuket
- Marina and enjoy a journey to discover 
-Phi Phi Island
-. Once you arrive, board a speedboat to the renowned Maya Bay. Next, visit the Pileh Lagoon for a refreshing swim in its tranquil emerald waters and explore the Viking Caves' wall paintings. Continue to Monkey Beach to interact with its playful monkeys. Also, visit Phi Phi Don Island, 
-Bamboo Island
-, and Khai Nok Island before returning to your hotel for an overnight stay."
+                content="In the morning, get transferred to Phuket Marina and enjoy a journey to discover Phi Phi Islan . Once you arrive, board a speedboat to the renowned Maya Bay. Next, visit the Pileh Lagoon for a refreshing swi in its tranquil emerald waters and explore the Viking Caves' wall paintings. Continue to Monkey Beach to interac with its playful monkeys. Also, visit Phi Phi Don Island, Bamboo Islan , and Khai Nok Island before returning to your hotel for an overnight stay."
                 Max="fa-solid fa-car"
                 MaxAltitude="Shared Transfer"
                 MaxAlt="Transfer in Toyota Commuter From => Super Deluxe Hotel in Phuket To => Phuket Marina"
@@ -184,11 +178,7 @@ Bamboo Island
             />
              <Accordion 
                 title="DAY 7 : Day Trip to Tiger Kingdom"
-                content="Today, board your transfer and get driven to the Tiger Kingdom, home to diverse types of tigers. Once there, encounter and get close to tigers, from playful cubs to majestic adults. Also, capture stunning photos with the tigers and learn deeply about them and their behavior before getting driven to your hotel. Later, you can head out and witness the traditional Chinese architecture of 
-Tha Rua Shrine
-, or you can explore 
-Phuket
- Aquarium & more. Afterwards, return to your hotel on your own."
+                content="Today, board your transfer and get driven to the Tiger Kingdom, home to diverse types of tigers. Once there, encounter and get close to tigers, from playful cubs to majestic adults. Also, capture stunning photos with the tigers and learn deeply about them and their behavior before getting driven to your hotel. Later, you can head out and witness the traditional Chinese architecture of Tha Rua Shrine, or you can explore Phuket Aquarium & more. Afterwards, return to your hotel on your own."
                 Max="fa-solid fa-car"
                 MaxAltitude="Private Transfer"
                 MaxAlt="Transfer in Sedan From => Super Deluxe Hotel in Phuket To => Tiger Kingdom Phuket Tickets To => Super Deluxe Hotel in Phuket"
