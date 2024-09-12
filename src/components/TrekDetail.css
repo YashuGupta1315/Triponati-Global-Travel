@@ -12,6 +12,10 @@
     font-size: 1rem;
     font-weight: 500;
 }
+.highlights h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
 .main{
     background-color: #91b0fe;
     display: flex;
@@ -37,18 +41,23 @@
     border-radius: 10px;
     text-align: center;
 }
-.highlights{
+.highlights p{
     background-color: rgb(8, 8, 115);
     padding: 2rem 3rem;
     color: white;
     text-align: justify;
+    font-size: 1rem;
 }
 .iternary{
-    margin: 3rem 0rem;
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
     font-size: 1.3rem;
     font-weight: 800;
-    background-color: black;
+    background-color:  rgb(8, 8, 115);
     color: white;
+
 }
 @media screen and (max-width: 850px) {
     .Overview {
@@ -82,9 +91,14 @@
     .highlights {
         padding: 1.5rem 1.5rem;
     }
-
+    .highlights h1{
+        font-size: 1.5rem;
+    }
+    .highlights p{
+        font-size: 0.7rem;
+        text-align: justify;
+    }
     .iternary {
-        padding-left: 0.5rem;
         font-size: 1rem;
         text-align: left;
     }
