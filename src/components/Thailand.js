@@ -43,13 +43,18 @@ const  Thailand = () => {
       const homePageSettings = {
         dots: false,
         infinite: true,
-        speed: 900,
+        speed: 800,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 4000,
         pauseOnHover: true,
       };
+      const handleSubmit = (event) => {
+        event.preventDefault();
+       
+      };
+    
       return(
         <>
             <Navbar/>
@@ -217,6 +222,7 @@ Phuket
 
                 
             />
+          
             <StickyForm 
             title="Wonders of Thailand | Culture, Corals and Coastlines"
             originalPrice="INR 60,200"
