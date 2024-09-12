@@ -11,77 +11,77 @@ const  Bali = () => {
         { 
             id: 1, 
             title: 'Bali', 
-            image: ''
+            image: 'https://media1.thrillophilia.com/filestore/xd76elx22080yds0m97w8thh6kvw_shutterstock_459781222.jpg?h=252&w=auto&dpr=1.4875000715255737'
         },
         { 
             id: 2, 
             title: 'Bali', 
-            image: '' 
+            image: 'https://media1.thrillophilia.com/filestore/9imq1yroyvb3vealbz87u6n38cfe_shutterstock_2246108303.jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 3, 
             title: 'Bali', 
-            image: '' 
+            image: 'https://media1.thrillophilia.com/filestore/gm4z6h3ftihhgfjz5wv0dkxygzy1_Tanah%20Lot%20Temple.jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 4, 
             title: 'Bali', 
-            image: '' 
+            image: 'https://media1.thrillophilia.com/filestore/43rkds84d7pz4kjvrrlmjzu6jiaz_Alas%20Kedaton-1.jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 5, 
             title: 'Bali', 
-            image: '' 
+            image: 'https://media1.thrillophilia.com/filestore/jitvsn1pu1wu7z600iqswfgphod1_shutterstock_2291878411.jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 6, 
             title: 'Bali', 
-            image: '' 
+            image: 'https://media1.thrillophilia.com/filestore/a1tvt1ppc2hvvmht3k2tbqbfc0bz_shutterstock_485756020.jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 7, 
             title: 'Bali', 
-            image: '' 
+            image: 'https://media1.thrillophilia.com/filestore/g4aium5gj1oi4lbxfz1v2dgb2qp0_shutterstock_2427199549%20(1).jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 8, 
             title: 'Bali', 
-            image: '' 
+            image: 'https://media1.thrillophilia.com/filestore/jayxq6r23hkk2898go4nd3uhfylf_shutterstock_2377723489.jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 9, 
             title: 'Bali', 
-            image: '' 
+            image: 'https://media1.thrillophilia.com/filestore/g4bh877gq989p4c5j6gwklcbct9v_shutterstock_639746914.jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 10, 
             title: 'Bali', 
-            image: '' 
+            image: 'https://media1.thrillophilia.com/filestore/to6ggx4y63cvowgdpjn04qqjmfir_shutterstock_450911629.jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 11, 
             title: 'Bali', 
-            image: ''
+            image: 'https://media1.thrillophilia.com/filestore/dkqhxqx8b8p6cy2cv2t191vc7uta_shutterstock_662627050.jpg?h=252&w=auto&dpr=1.4875000715255737'
         },
         { 
             id: 12, 
             title: 'Bali', 
-            image: ''
+            image: 'https://media1.thrillophilia.com/filestore/m7c5upsav32okdknvsqopp0oq829_swing.jpg?h=252&w=auto&dpr=1.4875000715255737'
         },
         { 
             id: 13, 
             title: 'Bali', 
-            image: ''
+            image: 'https://media1.thrillophilia.com/filestore/2c4gsvjx6ewmkfj69yem24289bdg_shutterstock_2266682373.jpg?h=252&w=auto&dpr=1.4875000715255737'
         },
         { 
             id: 14, 
             title: 'Bali', 
-            image: ''
+            image: 'https://media1.thrillophilia.com/filestore/5t4monlh12ki9eu3vkpb3264k212_shutterstock_1463319173%20(1).jpg?h=252&w=auto&dpr=1.4875000715255737'
         },
         { 
             id: 15, 
             title: 'Bali', 
-            image: ''
+            image: 'https://media1.thrillophilia.com/filestore/vaf9vgs1dkk4fpuu0r78nxnehhat_shutterstock_1507517912%20(1).jpg?h=252&w=auto&dpr=1.4875000715255737'
         },
       ];
     

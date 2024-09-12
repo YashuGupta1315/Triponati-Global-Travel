@@ -57,7 +57,7 @@ function International() {
             Alt="Singapore"
             header="Singapore"
             text="Singapore is a vibrant city-state located in Southeast Asia, known for its unique blend of modernity and tradition. Despite its small size, Singapore is a global financial hub and a melting pot of cultures, offering a rich tapestry of experiences. The city is renowned for its cleanliness, efficient public transport, and impressive skyline featuring iconic landmarks like Marina Bay Sands and Gardens by the Bay. Singapore also boasts a diverse culinary scene, world-class shopping, and a commitment to sustainability, making it one of the most dynamic and forward-thinking cities in the world."
-            Url="/"
+            Url="/Singapore"
             visit="Visit Now!"
           />
         </div>
