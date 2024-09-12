@@ -8,9 +8,9 @@ function InternationData(props) {
       </div>
       <h4>{props.header}</h4>
       <p>{props.text}</p>
-      <Link href={props.Url} target="_blank">
+      <a href={props.Url} target="_blank">
         {props.visit}
-      </Link>
+      </a>
     </div>
   );
 }
