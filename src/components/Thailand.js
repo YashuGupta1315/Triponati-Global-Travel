@@ -43,11 +43,11 @@ const  Thailand = () => {
       const homePageSettings = {
         dots: false,
         infinite: true,
-        speed: 800,
+        speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 1000,
         pauseOnHover: true,
       };
       const handleSubmit = (event) => {
