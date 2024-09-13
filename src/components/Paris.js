@@ -25,8 +25,8 @@ const  Paris = () => {
         },
         { 
             id: 4, 
-            title: 'https://media1.thrillophilia.com/filestore/0lsp34tsf7t6lrys55s5mvrbx424_Downpic.cc-125526383.jpg?h=252&w=auto&dpr=1.4875000715255737Paris', 
-            image: '' 
+            title: 'Paris', 
+            image: 'https://media1.thrillophilia.com/filestore/q5a9wayk6o4opfkx9pa8slrtqqz8_shutterstock_74901310.jpg?h=252&w=auto&dpr=1.4875000715255737' 
         },
         { 
             id: 5, 
