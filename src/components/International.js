@@ -49,7 +49,7 @@ function International() {
             Alt="Greece"
             header="Greece"
             text="Greece, located in southeastern Europe, is a country known for its rich history, stunning landscapes, and vibrant culture. It's the birthplace of democracy, Western philosophy, and the Olympic Games. Greece boasts a diverse terrain, from ancient ruins like the Acropolis in Athens to picturesque islands such as Santorini and Mykonos, with their iconic white-washed buildings and crystal-clear waters. The country offers a unique blend of ancient and modern, where traditional villages coexist with bustling cities, and its cuisine, music, and traditions reflect the deep heritage of its people."
-            Url="/"
+            Url="/Greece"
             visit="Visit Now!"
           />
           <InternationData
