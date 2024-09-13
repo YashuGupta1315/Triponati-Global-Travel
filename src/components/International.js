@@ -15,7 +15,7 @@ function International() {
             Alt="Dubai"
             header="Dubai"
             text="Dubai is a city of superlatives, known for its futuristic skyline, luxury shopping, and vibrant culture. Nestled in the United Arab Emirates, this modern metropolis is home to the world's tallest building, the Burj Khalifa, and the expansive Dubai Mall. Beyond its architectural marvels, Dubai offers a blend of traditional and contemporary experiences, from exploring bustling souks and desert safaris to enjoying fine dining and world-class entertainment. A hub of innovation and tourism, Dubai is a dynamic destination that promises an unforgettable experience."
-            Url="/"
+            Url="/Dubai"
             visit="Visit Now!"
           />
           <InternationData

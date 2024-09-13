@@ -251,7 +251,7 @@ const  Japan = () => {
             />
           
             <StickyForm 
-            title="Wonders of Thailand | Culture, Corals and Coastlines"
+            title="Discover Japan | Temples, Technology, and Tradition"
             originalPrice="INR 3,41,748.28"
             discountedPrice="INR  2,56,953.38"
             saleType="SAVE INR  84,794.91"

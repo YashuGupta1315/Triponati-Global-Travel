@@ -243,7 +243,7 @@ const  Singapore = () => {
             />
           
             <StickyForm 
-            title="Wonders of Thailand | Culture, Corals and Coastlines"
+            title="Singapore & Malaysia Trip | FREE Night Safari Experience"
             originalPrice="INR 99,261"
             discountedPrice="INR 59,432"
             saleType="SAVE INR  39,829"
