@@ -41,7 +41,7 @@ function International() {
             Alt="Paris"
             header="Paris"
             text="Paris, the capital of France, is often called the City of Light and is renowned for its rich history, art, and culture. It is home to iconic landmarks like the Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral. Paris is also famous for its charming streets, world-class cuisine, and vibrant café culture. The city's blend of old-world elegance and modern innovation makes it a beloved destination for travelers from around the globe."
-            Url="/"
+            Url="/Paris"
             visit="Visit Now!"
           />
           <InternationData
