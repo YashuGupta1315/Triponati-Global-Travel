@@ -23,7 +23,7 @@ function International() {
             Alt="Australia"
             header="Australia"
             text="Australia, often referred to as the Land Down Under, is a country and continent renowned for its stunning natural beauty, vibrant cities, and unique wildlife. From the iconic Sydney Opera House and the Great Barrier Reef to the vast Outback and pristine beaches, Australia offers a diverse range of experiences for travelers. The country's rich indigenous culture, combined with its modern, multicultural society, creates a dynamic and welcoming environment. Whether exploring bustling urban centers, hiking through national parks, or relaxing by the coast, Australia promises adventure, relaxation, and unforgettable memories."
-            Url="/"
+            Url="/Australia"
             visit="Visit Now!"
           />
           <InternationData

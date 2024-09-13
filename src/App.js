@@ -63,6 +63,7 @@ import Japan from "./components/Japan";
 import Bali from "./components/Bali";
 import Singapore from "./components/Singapore";
 import Dubai from "./components/Dubai";
+import Australia from "./components/Australia";
 
 export default function App() {
   return (
@@ -131,6 +132,7 @@ export default function App() {
         <Route path="/Bali" element={<Bali/>}/>
         <Route path="/Singapore" element={<Singapore/>}/>
         <Route path="/Dubai" element={<Dubai/>}/>
+        <Route path="/Australia" element={<Australia/>}/>
 
       </Routes>
     </div>
