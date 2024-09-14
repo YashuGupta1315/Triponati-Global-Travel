@@ -134,3 +134,41 @@ blockquote {
 .back-button:hover, .new-traveler:hover {
   text-decoration: underline;
 }
+
+
+@media screen and (max-width: 850px) {
+  .signup-container {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .form-section, .quote-section {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    padding: 8px;
+    margin: 8px 0;
+  }
+
+  .signup-button {
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  blockquote {
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+
+  .signin-link {
+    font-size: 0.875rem;
+  }
+}
