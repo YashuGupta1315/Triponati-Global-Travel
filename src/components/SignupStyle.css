@@ -23,7 +23,7 @@ body {
   align-items: center;
   background-image: url("https://media.istockphoto.com/id/1276682837/photo/trekking-way-on-top-of-the-mountains-and-sunset-view.jpg?s=170667a&w=0&k=20&c=AVJrWFcWnlPeihjO7y6Q8nkMmUmNcf-VOO3YsrjpbSw="); 
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   position: relative;
 }
 
@@ -114,7 +114,8 @@ input {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.2);
-  color: white;
+  color: black;
+  font-weight:800;
 }
 
 blockquote {

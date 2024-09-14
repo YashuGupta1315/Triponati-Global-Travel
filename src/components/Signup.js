@@ -48,7 +48,7 @@ const Signup = () => {
       <div className="signup-container">
         <div className="form-section">
           <div className="back-button">← Back</div>
-          <div className="new-traveler">New traveler</div>
+          <div className="new-traveler">Triponati Global Travel</div>
           <h1>Explore travel destinations</h1>
           <p>The best places for your wild adventures.</p>
           <form onSubmit={handleSubmit}>
