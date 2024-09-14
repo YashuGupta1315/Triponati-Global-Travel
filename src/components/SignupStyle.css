@@ -111,6 +111,9 @@ blockquote {
   font-size: 1rem;
   margin-bottom: 20px;
   cursor: pointer;
+  text-decoration: none;
+  color:black;
+  font-weight:700;
 }
 
 .back-button:hover, .new-traveler:hover {
