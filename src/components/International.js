@@ -83,7 +83,7 @@ function International() {
             Alt="Maldives"
             header="Maldives"
             text="The Maldives is a tropical paradise located in the Indian Ocean, known for its stunning white-sand beaches, crystal-clear turquoise waters, and vibrant coral reefs. Comprising over 1,000 small islands, it’s a popular destination for luxury resorts, honeymooners, and diving enthusiasts. The Maldives offers a tranquil escape, with its unique overwater bungalows, abundant marine life, and breathtaking sunsets. Beyond its natural beauty, the Maldives is also rich in cultural heritage, with a history influenced by South Asian, Arab, and African traders."
-            Url="/"
+            Url="/Maldives"
             visit="Visit Now!"
           />
         </div>
