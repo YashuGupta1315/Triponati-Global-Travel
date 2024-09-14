@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import "./SignupStyle.css";
 
 const Signup = () => {
@@ -47,7 +48,7 @@ const Signup = () => {
     <div className="signup-page">
       <div className="signup-container">
         <div className="form-section">
-          <div className="back-button">← Back</div>
+          <div className="back-button"> <Link to="/">← Back</Link></div>
           <div className="new-traveler">Triponati Global Travel</div>
           <h1>Explore travel destinations</h1>
           <p>The best places for your wild adventures.</p>
