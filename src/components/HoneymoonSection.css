@@ -1,129 +1,134 @@
 .honeymoon-section {
     background-color: #f5f5f5;
     padding: 60px 20px;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .section-title {
+}
+
+.section-title {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
     color: #ff6b6b;
     margin-bottom: 20px;
-  }
-  
-  .section-subtitle {
+}
+
+.section-subtitle {
     text-align: center;
     color: #777;
     margin-bottom: 40px;
-  }
-  
-  .destination-grid {
+}
+
+/* Adjusting the grid for at least 4 columns */
+.destination-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-  }
-  
-  
-  .destination-card {
+}
+
+/* Grid cards and related content */
+.destination-card {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-  }
-  
-  .destination-image {
+}
+
+.destination-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
-  }
-  
-  .destination-info {
+}
+
+.destination-info {
     padding: 20px;
-  }
-  
-  .destination-name {
+}
+
+.destination-name {
     font-size: 20px;
     font-weight: 600;
     color: darkblue;
-  }
-  
-  .destination-description {
+}
+
+.destination-description {
     color: black;
     margin-top: 10px;
-  }
-  
-  .packages-section {
+}
+
+.packages-section {
     margin-top: 60px;
-  }
-  
-  .package-grid {
+}
+
+.package-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-  }
-  
-  
-  .package-card {
+}
+
+.package-card {
     background-color: white;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .package-title {
+}
+
+.package-title {
     font-size: 20px;
     font-weight: 600;
     color: #333;
     margin-bottom: 10px;
-  }
-  
-  .package-description {
-    color: #555;
-  }
-  
+}
 
-  /* Media Queries for Screens less than or equal to 850px */
-  @media screen and (max-width: 850px) {
+.package-description {
+    color: #555;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1024px) {
+    .destination-grid, .package-grid {
+        grid-template-columns: repeat(2, 1fr); /* Display 2 cards per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .destination-grid, .package-grid {
+        grid-template-columns: repeat(1, 1fr); /* Display 1 card per row on smaller screens */
+    }
+}
+
+@media screen and (max-width: 600px) {
     .container {
-      padding: 0 15px;
+        padding: 0 15px;
     }
-  
+
     .section-title {
-      font-size: 28px;
+        font-size: 28px;
     }
-  
-    .destination-grid,
-    .package-grid {
-      grid-template-columns: 1fr;
+
+    .destination-grid, .package-grid {
+        grid-template-columns: repeat(1, 1fr); /* Full width on small screens */
     }
-  
-    .destination-card,
-    .package-card {
-      margin-bottom: 20px;
+
+    .destination-card, .package-card {
+        margin-bottom: 20px;
     }
-  
+
     .destination-image {
-      height: 150px;
+        height: 150px;
     }
-  
-    .destination-info,
-    .package-card {
-      padding: 15px;
+
+    .destination-info, .package-card {
+        padding: 15px;
     }
-  
-    .destination-name,
-    .package-title {
-      font-size: 18px;
+
+    .destination-name, .package-title {
+        font-size: 18px;
     }
-  
-    .destination-description,
-    .package-description {
-      font-size: 14px;
+
+    .destination-description, .package-description {
+        font-size: 14px;
     }
-  }
-  
+}
