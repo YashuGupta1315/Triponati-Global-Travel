@@ -67,6 +67,7 @@ import Australia from "./components/Australia";
 import Greece from "./components/Greece";
 import Paris from "./components/Paris";
 import Maldives from "./components/Maldives";
+import HoneymoonSection from "./components/HoneymoonSection";
 
 export default function App() {
   return (
@@ -139,7 +140,8 @@ export default function App() {
         <Route path="/Greece" element={<Greece/>}/>
         <Route path="/Paris" element={<Paris/>}/>
         <Route path="/Maldives" element={<Maldives/>}/>
-
+        <Route path="/HoneymoonSection" element={<HoneymoonSection/>}/>
+        
       </Routes>
     </div>
   );

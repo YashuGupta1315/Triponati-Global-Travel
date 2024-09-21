@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Trek from "../components/Trek";
 import Footer from "../components/Footer";
+import HoneymoonSection from "../components/HoneymoonSection";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         btnClass="show"
       />
       <Destination />
+      <HoneymoonSection/>
       <Trek />
       <Footer />
     </>
