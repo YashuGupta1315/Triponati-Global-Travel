@@ -68,7 +68,7 @@ import Greece from "./components/Greece";
 import Paris from "./components/Paris";
 import Maldives from "./components/Maldives";
 import HoneymoonSection from "./components/HoneymoonSection";
-import honeymoonForm from "./components/honeymoonForm";
+// import honeymoonForm from "./components/honeymoonForm";
 
 export default function App() {
   return (
@@ -142,7 +142,7 @@ export default function App() {
         <Route path="/Paris" element={<Paris/>}/>
         <Route path="/Maldives" element={<Maldives/>}/>
         <Route path="/HoneymoonSection" element={<HoneymoonSection/>}/>
-        <Route path="/honeymoonForm" element={<honeymoonForm/>}/>
+        {/* <Route path="/honeymoonForm" element={<honeymoonForm/>}/> */}
         
       </Routes>
     </div>
