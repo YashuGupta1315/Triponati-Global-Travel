@@ -66,11 +66,11 @@
     margin-top: 60px;
 }
 
-.package-grid {
+/* .package-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-}
+} */
 
 .package-card {
     background-color: white;
