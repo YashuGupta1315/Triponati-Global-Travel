@@ -2,7 +2,7 @@ import React from 'react';
 import './HoneymoonSection.css';
 
 const honeymoonDestinations = [
-  { name: 'Maldives', image: 'https://media1.thrillophilia.com/filestore/dx2d4nn17uljrrf78hzezmxbc879_shutterstock_137193326.jpg?dpr=1.4875000715255737&w=1291', description: 'A tropical paradise with stunning overwater bungalows.Spend your day pampering as you get spa treatments at the resort spa. In the evening, you can head out to explore the local markets and areas while getting a look at the Maldivian lifestyle.' },
+
   
   { name: 'Kashmir', image: 'https://media1.thrillophilia.com/filestore/usazq8kuqylkmsbblnx9vah8vwac_vw24iqdm775v9ve4zsihqy11i8ng_shutterstock_2385998939.jpg?dpr=1.4875000715255737&w=1291', description: 'A Luxury stay in houseboats of Kashmir is a magical expereince with the sight of the moon reflected on the glassy lake, the cool breeze and the quiet gurgling sound of water helping you soothe your soul.' },
   { name: 'Greece ', image: 'https://media1.thrillophilia.com/filestore/raoe41fdngw9j421oc6rn1bjbt4l_1503040748_greece_honeymoon_images_couples_q.jpg?dpr=1.4875000715255737&w=1291', description: 'Embark on an exhilarating honeymoon trip to enjoy the mesmerising beauty of Greece exhibiting the perfect blend of beaches, architectural brilliance, natural sights and happy faces' },
