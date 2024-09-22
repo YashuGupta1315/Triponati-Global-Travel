@@ -1,8 +1,7 @@
-
 import React, { useState } from "react";
 import "./StickyForm.css";
 
-const honeymoonForm= () => {
+const HoneymoonForm= () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -129,4 +128,4 @@ const honeymoonForm= () => {
   );
 };
 
-export default honeymoonForm;
+export default HoneymoonForm;

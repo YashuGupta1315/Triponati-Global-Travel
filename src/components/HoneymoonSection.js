@@ -50,7 +50,7 @@ const HoneymoonSection = () => {
             </div>
             <div className="package-card">
               <h3 className="package-title">Honeymoon Special !!!</h3>
-              <a href='/honeymoonForm' className="package-booking">
+              <a href="/HoneymoonForm" className="package-booking">
                Book Your Honeymoon 
               </a>
             </div>
