@@ -87,6 +87,32 @@ function International() {
             visit="Visit Now!"
           />
         </div>
+        <div className="Intercard">
+        <InternationData
+            Img="https://static.toiimg.com/photo/69789748.cms"
+            Alt="Nepal"
+            header="Nepal"
+            text="Nepal, a country nestled in the Himalayas, is a renowned destination for adventure and cultural tourism. Home to Mount Everest, the world's highest peak, it attracts trekkers and climbers from around the globe. Nepal offers a rich tapestry of ancient temples, monasteries, and vibrant festivals, reflecting its diverse cultural heritage. Popular spots like Kathmandu, Pokhara, and Lumbini, the birthplace of Buddha, provide a blend of history, spirituality, and natural beauty. Whether exploring serene lakes or trekking through rugged mountain trails, Nepal's unique charm captivates travelers seeking both adventure and tranquility."
+            Url="/Nepal"
+            visit="Visit Now!"
+          />
+          <InternationData
+            Img="https://curlytales.com/wp-content/uploads/2024/07/1-36.jpg"
+            Alt="Switzerland"
+            header="Switzerland"
+            text="Switzerland is renowned for its breathtaking landscapes, featuring the majestic Alps, serene lakes, and picturesque villages. A paradise for nature lovers and adventure enthusiasts, it offers world-class skiing, hiking, and mountain biking. Cities like Zurich, Geneva, and Lucerne blend modernity with rich history, offering museums, luxury shopping, and cultural experiences. Switzerland's efficient transport system makes it easy to explore its diverse attractions, including iconic sites like the Matterhorn, Lake Geneva, and the scenic train routes. Its famous Swiss hospitality, chocolate, and cheese further enhance the travel experience, making it a top destination year-round."
+            Url="/Switzerland"
+            visit="Visit Now!"
+          />
+          <InternationData
+            Img="https://pohcdn.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Turkey-1.jpg"
+            Alt="Turkey"
+            header="Turkey"
+            text="Turkey is a diverse and vibrant travel destination, known for its rich history, stunning landscapes, and unique blend of Eastern and Western cultures. Visitors can explore ancient cities like Istanbul, with its iconic Hagia Sophia and bustling bazaars, or relax on the beautiful Mediterranean beaches of Antalya. The natural wonders of Cappadocia's fairy chimneys and Pamukkale’s thermal terraces offer unforgettable experiences. Turkey's cuisine, combining Mediterranean and Middle Eastern flavors, adds to its allure, making it a must-visit for travelers seeking both cultural and natural beauty."
+            Url="/Turkey"
+            visit="Visit Now!"
+          />
+        </div>
       </div>
     </>
   );
