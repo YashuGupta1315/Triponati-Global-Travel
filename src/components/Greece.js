@@ -146,8 +146,8 @@ const  Greece = () => {
             <StickyForm 
             title="Best of Greece and New Zealand"
             originalPrice="INR  1,55,000"
-            discountedPrice="INR 1,45,000"
-            saleType="6% Off"
+            discountedPrice="INR 1,40,000"
+            saleType="Best Offer!!"
             onSubmit={handleSubmit}
             />
             <Footer/>

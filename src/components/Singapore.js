@@ -245,8 +245,8 @@ const  Singapore = () => {
             <StickyForm 
             title="Singapore & Malaysia Trip | FREE Night Safari Experience"
             originalPrice="INR 99,261"
-            discountedPrice="INR 59,432"
-            saleType="SAVE INR  39,829"
+            discountedPrice="INR 55,000"
+            saleType="Best Offer !"
             onSubmit={handleSubmit}
             />
             <Footer/>

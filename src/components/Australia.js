@@ -176,8 +176,8 @@ const  Australia = () => {
             <StickyForm 
             title="Best of Australia and New Zealand"
             originalPrice="INR  4,16,000"
-            discountedPrice="INR 3,00,120"
-            saleType="28% off!"
+            discountedPrice="INR 2,00,000"
+            saleType="Best Offer!"
             onSubmit={handleSubmit}
             />
             <Footer/>

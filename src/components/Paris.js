@@ -231,7 +231,7 @@ const  Paris = () => {
             <StickyForm 
             title="Best of Swiss And France | FREE Eiffel Tower Summit Access"
             originalPrice="INR 2,55,094"
-            discountedPrice="INR 1,35,200"
+            discountedPrice="INR 1,30,000"
             saleType="SAVE INR 1,19,894"
             onSubmit={handleSubmit}
             />

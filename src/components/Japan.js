@@ -252,9 +252,9 @@ const  Japan = () => {
           
             <StickyForm 
             title="Discover Japan | Temples, Technology, and Tradition"
-            originalPrice="INR 3,41,748.28"
-            discountedPrice="INR  2,56,953.38"
-            saleType="SAVE INR  84,794.91"
+            originalPrice="INR 3,40,000"
+            discountedPrice="INR  2,00,000"
+            saleType="Best Offer !"
             onSubmit={handleSubmit}
             />
             <Footer/>

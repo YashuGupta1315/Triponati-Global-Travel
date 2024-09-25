@@ -192,7 +192,7 @@ const  Maldives = () => {
             <StickyForm 
             title="Siyam World Resort, Maldives"
             originalPrice="INR 1,37,486"
-            discountedPrice="INR 1,05,759"
+            discountedPrice="INR 90,000"
             saleType="Best Offer!!"
             onSubmit={handleSubmit}
             />

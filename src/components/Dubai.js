@@ -258,8 +258,8 @@ const  Dubai = () => {
             <StickyForm 
             title="Dubai Family Getaway | Towers Above and Sands Below"
             originalPrice="INR 87,326"
-            discountedPrice="INR  72,000"
-            saleType="SAVE INR 15,326"
+            discountedPrice="INR  70,000"
+            saleType="SAVE INR 17,326"
             onSubmit={handleSubmit}
             />
             <Footer/>
