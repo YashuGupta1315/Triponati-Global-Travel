@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { auth, database } from '../firebaseConfig'; // Adjust the path according to your project structure
 import "./StickyForm.css";
 
 const StickyForm = ({
@@ -30,37 +31,49 @@ const StickyForm = ({
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, phone, countryCode, travelDate, travellerCount, message } = formData;
-    
-    try {
-      const res = await fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          phone,
-          countryCode,
-          travelDate,
-          travellerCount,
-          message,
-        }),
-      });
 
-      if (res.ok) {
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          countryCode: "+91",
-          travelDate: "",
-          travellerCount: "",
-          message: "",
+    try {
+      // Check if the user is authenticated
+      const currentUser = auth.currentUser;
+
+      if (currentUser) {
+        // Get the ID token of the authenticated user
+        const idToken = await currentUser.getIdToken();
+
+        // Perform the POST request with the ID token in headers
+        const res = await fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${idToken}`, // Adding the ID token here
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            phone,
+            countryCode,
+            travelDate,
+            travellerCount,
+            message,
+          }),
         });
-        alert("Form Submitted!!");
+
+        if (res.ok) {
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            countryCode: "+91",
+            travelDate: "",
+            travellerCount: "",
+            message: "",
+          });
+          alert("Form Submitted Successfully!");
+        } else {
+          alert("Failed to submit form!");
+        }
       } else {
-        alert("Failed to submit form!");
+        alert("User is not authenticated. Please sign in.");
       }
     } catch (error) {
       console.error("Error:", error);
@@ -102,11 +115,6 @@ const StickyForm = ({
               <option value="+61">+61</option>
               <option value="+81">+81</option>
               <option value="+971">+971</option>
-              <option value="+247">+247</option>
-              <option value="+376">+376</option>
-              <option value="+93">+93</option>
-              <option value="+355">+355</option>
-           
             </select>
             <input
               type="tel"
@@ -132,27 +140,14 @@ const StickyForm = ({
             onChange={handleChange}
             required
           >
-            <option value="" disabled>Select Traveller Count</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="4">5</option>
-            <option value="4">6</option>
-            <option value="4">7</option>
-            <option value="4">8</option>
-            <option value="4">9</option>
-            <option value="4">10</option>
-            <option value="4">11</option>
-            <option value="4">12</option>
-            <option value="4">13</option>
-            <option value="4">14</option>
-            <option value="4">15</option>
-            <option value="4">16</option>
-            <option value="4">17</option>
-            <option value="4">18</option>
-            <option value="4">19</option>
-            <option value="4">20</option>
+            <option value="" disabled>
+              Select Traveller Count
+            </option>
+            {[...Array(20).keys()].map((num) => (
+              <option key={num} value={num + 1}>
+                {num + 1}
+              </option>
+            ))}
             <option value="More than 20">More than 20</option>
           </select>
           <textarea
