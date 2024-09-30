@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import firebase from "firebase/app"; // Ensure firebase is properly initialized
+import "firebase/auth"; // Import Firebase authentication
+// import { database } from './firebaseConfig'; // Import your Firebase configuration
 import "./TravelPlanStyle.css"; // Import the CSS file
 
 const TravelPlan = () => {
@@ -21,40 +24,50 @@ const TravelPlan = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
-    
     const { fullName, email, phone, countryCode, travelDate, travellerCount, message } = formData;
     
     try {
-      const res = await fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          fullName,
-          email,
-          phone,
-          countryCode,
-          travelDate,
-          travellerCount,
-          message,
-        }),
-      });
-  
-      if (res.ok) {
-        setFormData({
-          fullName: "",
-          email: "",
-          phone: "",
-          countryCode: "+91",
-          travelDate: "",
-          travellerCount: "",
-          message: "",
+      // Check if the user is authenticated
+      const currentUser = firebase.auth().currentUser;
+
+      if (currentUser) {
+        // Get the ID token of the authenticated user
+        const idToken = await currentUser.getIdToken();
+
+        // Perform the POST request with the ID token in headers
+        const res = await fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${idToken}`, // Adding the ID token here
+          },
+          body: JSON.stringify({
+            fullName,
+            email,
+            phone,
+            countryCode,
+            travelDate,
+            travellerCount,
+            message,
+          }),
         });
-        alert("Form Submitted!!");
+  
+        if (res.ok) {
+          setFormData({
+            fullName: "",
+            email: "",
+            phone: "",
+            countryCode: "+91",
+            travelDate: "",
+            travellerCount: "",
+            message: "",
+          });
+          alert("Form Submitted!!");
+        } else {
+          alert("Failed to submit form!");
+        }
       } else {
-        alert("Failed to submit form!");
+        alert("User is not authenticated. Please sign in.");
       }
     } catch (error) {
       console.error("Error:", error);
@@ -62,7 +75,6 @@ const TravelPlan = () => {
     }
   };
   
-
   return (
     <div className="form-overlay">
       <div className="form-container">
@@ -115,7 +127,6 @@ const TravelPlan = () => {
               <option value="+376">+376</option>
               <option value="+93">+93</option>
               <option value="+355">+355</option>
-
             </select>
             <input
               type="tel"
@@ -159,7 +170,7 @@ const TravelPlan = () => {
               rows="3"
             ></textarea>
           </div>
-          <button type="submit" className="form-button" >
+          <button type="submit" className="form-button">
             Connect with an Expert
           </button>
         </form>

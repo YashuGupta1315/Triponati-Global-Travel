@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import "./StickyForm.css";
+import firebase from "firebase/app"; // Ensure firebase is properly initialized
+import "firebase/auth"; // Import Firebase authentication
+import { database } from './firebaseConfig'; // Import your Firebase configuration
+import "./StickyForm.css"; // Import the CSS file
 
-const HoneymoonForm= () => {
+const HoneymoonForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -21,38 +24,48 @@ const HoneymoonForm= () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { name, email, phone, countryCode, travelDate,destination } = formData;
+    const { name, email, phone, countryCode, travelDate, destination } = formData;
     
     try {
-      const res = await fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          phone,
-          countryCode,
-          travelDate,
-          destination
-         
-        }),
-      });
+      // Check if the user is authenticated
+      const currentUser = firebase.auth().currentUser;
 
-      if (res.ok) {
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          countryCode: "+91",
-          travelDate: "",
-          destination: "",
-         
+      if (currentUser) {
+        // Get the ID token of the authenticated user
+        const idToken = await currentUser.getIdToken();
+
+        // Perform the POST request with the ID token in headers
+        const res = await fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${idToken}`, // Adding the ID token here
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            phone,
+            countryCode,
+            travelDate,
+            destination
+          }),
         });
-        alert("Form Submitted!!");
+
+        if (res.ok) {
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            countryCode: "+91",
+            travelDate: "",
+            destination: "",
+          });
+          alert("Form Submitted!!");
+        } else {
+          alert("Failed to submit form!");
+        }
       } else {
-        alert("Failed to submit form!");
+        alert("User is not authenticated. Please sign in.");
       }
     } catch (error) {
       console.error("Error:", error);
@@ -118,12 +131,16 @@ const HoneymoonForm= () => {
             placeholder="Choose Date of Travel"
             required
           />
-          <input type="text" name="destination" value={formData.destination} onChange={handleChange} placeholder="Type the Destination you want to travel with your better half!"/>
-         
-          <button type="submit">Connect With An Expert ! </button>
+          <input 
+            type="text" 
+            name="destination" 
+            value={formData.destination} 
+            onChange={handleChange} 
+            placeholder="Type the Destination you want to travel with your better half!"
+          />
+          <button type="submit">Connect With An Expert!</button>
         </form>
       </div>
-      
     </div>
   );
 };
