@@ -24,19 +24,18 @@ const HoneymoonForm= () => {
     const { name, email, phone, countryCode, travelDate,destination } = formData;
     
     try {
-      const res = await fetch("https://triponatglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
+      const res = await fetch("https://triponatiglobaltravel-default-rtdb.firebaseio.com/userDataRecord.json", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-
         body: JSON.stringify({
           name,
           email,
           phone,
           countryCode,
           travelDate,
-          destination,
+          destination
          
         }),
       });
