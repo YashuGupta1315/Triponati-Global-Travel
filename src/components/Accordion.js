@@ -7,7 +7,6 @@ const Accordion = ({ title, content, Max, MaxAltitude, MaxAlt, Over, OverNight, 
   };
   return (
     <>
- 
     <div className="accordion-item">
         <div className="accordion-title" onClick={toggleAccordion}>
           <h3>{title}</h3>
