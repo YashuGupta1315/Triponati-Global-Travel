@@ -7,7 +7,7 @@ function InternationData(props) {
       </div>
       <h4>{props.header}</h4>
       <p>{props.text}</p>
-      <a href={props.Url} target="_blank">
+      <a href={props.Url} >
         {props.visit}
       </a>
     </div>

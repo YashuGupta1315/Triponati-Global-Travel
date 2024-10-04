@@ -6,7 +6,7 @@ function TrekData(props) {
         <img src={props.image} alt={props.alt} />
       </div>
       <h4>{props.heading}</h4>
-      <a href={props.url} target="_blank">
+      <a href={props.url} >
         {props.See}
       </a>
     </div>
